@@ -30,7 +30,7 @@
     "message": "kumbukumbu ya shughuli"
   },
   "addAcquiredTokens": {
-    "message": "Ongeza vianzio ulivyopata kwa kutumia MetaMask"
+    "message": "Ongeza vianzio ulivyopata kwa kutumia WutangMask"
   },
   "addAlias": {
     "message": "Ongeza jina jingine"
@@ -73,7 +73,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -101,7 +101,7 @@
     "message": "Kihesabu Muda wa Kuondoka Kwenye Akaunti Kiotomatiki (dakika)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Weka muda katika dakika kabla MetaMask haijaondoa kwenye akaunti kiotomatiki."
+    "message": "Weka muda katika dakika kabla WutangMask haijaondoa kwenye akaunti kiotomatiki."
   },
   "average": {
     "message": "Wastani"
@@ -113,7 +113,7 @@
     "message": "Rudi kwenye Zote"
   },
   "backupApprovalInfo": {
-    "message": "Msimbo huu wa siri unahitajika ili kurejesha waleti yako ikitokea umepoteza kifaa chako, umesahau nenosiri lako, umelazimika kusakinisha MetaMask, au unataka kufikia waleti yako kwenye kifaa kingine."
+    "message": "Msimbo huu wa siri unahitajika ili kurejesha waleti yako ikitokea umepoteza kifaa chako, umesahau nenosiri lako, umelazimika kusakinisha WutangMask, au unataka kufikia waleti yako kwenye kifaa kingine."
   },
   "backupApprovalNotice": {
     "message": "Hifadhi msimbo wa Siri wa Kurejesha data ili kuweka salama waleti yako na fedha."
@@ -141,13 +141,13 @@
     "message": "Kivinjari chaku hakiwezeshwi..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask imeundwa na kutengenezwa California."
+    "message": "WutangMask imeundwa na kutengenezwa California."
   },
   "buyWithWyre": {
-    "message": "Nunua ETH kwa kutumia Wyre"
+    "message": "Nunua AVAX kwa kutumia Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre inakuwezesha kutumia kadi ya benki kuweka ETH moja kwa moja kwenye akaunti yako ya MetaMask."
+    "message": "Wyre inakuwezesha kutumia kadi ya benki kuweka AVAX moja kwa moja kwenye akaunti yako ya WutangMask."
   },
   "cancel": {
     "message": "Ghairi"
@@ -162,7 +162,7 @@
     "message": "Utambulisho wa Mnyororo"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Unapaswa kutumia MetaMask kwenye Google Chrome ili kuungnisha kwenye Waleti yako ya Programu Maunzi."
+    "message": "Unapaswa kutumia WutangMask kwenye Google Chrome ili kuungnisha kwenye Waleti yako ya Programu Maunzi."
   },
   "clickToRevealSeed": {
     "message": "Bofya hapa ili uonyeshe maneno ya siri"
@@ -206,8 +206,8 @@
   "connectingToRinkeby": {
     "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Ropsten"
+  "connectingToAvalanche": {
+    "message": "Inaunganisha kwenye Mtandao wa Majaribio wa Avalanche"
   },
   "continueToWyre": {
     "message": "Endelea kwenye Wyre"
@@ -339,7 +339,7 @@
     "message": "Kamwe usimpatia mtu yeye kirai hicho."
   },
   "endOfFlowMessage5": {
-    "message": "Kuwa makini na walaghai! MetaMask kamwe haitakuomba kirai chako kianzio."
+    "message": "Kuwa makini na walaghai! WutangMask kamwe haitakuomba kirai chako kianzio."
   },
   "endOfFlowMessage6": {
     "message": "Ikiwa unataka kuhifadhi tena kwa njia mbadla kirai chako kianzio, unaweza kukipata kwenye Mipangilio -> Usalama."
@@ -348,7 +348,7 @@
     "message": "Ikiwa una maswali au umeona kitu ambacho ni cha ulaghai, tuma barua pepe support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask haiwezi kurejesha kirai chako kianzio. Pata maelezo ziadi."
+    "message": "WutangMask haiwezi kurejesha kirai chako kianzio. Pata maelezo ziadi."
   },
   "endOfFlowMessage9": {
     "message": "Jifunze zaidi."
@@ -458,7 +458,7 @@
     "message": "Unganisha waleti ya programu maunzi"
   },
   "hardwareWalletsMsg": {
-    "message": "Chagua waleti ya programu maunzi ambayo ungependa kutumia kwenye MetaMask"
+    "message": "Chagua waleti ya programu maunzi ambayo ungependa kutumia kwenye WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "Je, unapata shida kuunganisha?"
@@ -484,7 +484,7 @@
     "message": "Ingiza Akaunti"
   },
   "importAccountMsg": {
-    "message": "Akaunti zilizoingizwa hazitahusishwa na kirai chako cha kianzio cha akaunti ya MetaMask iliyoundwa awali. Pata maelezo zaidi kuhusu akaunti zilizoingizwa"
+    "message": "Akaunti zilizoingizwa hazitahusishwa na kirai chako cha kianzio cha akaunti ya WutangMask iliyoundwa awali. Pata maelezo zaidi kuhusu akaunti zilizoingizwa"
   },
   "importAccountSeedPhrase": {
     "message": "Hamisha Akaunti kwa kutumia Kirai Kianzio"
@@ -524,7 +524,7 @@
     "message": "Anwani ya mpokeaji si halali"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kwa mtandao wa ETH, weka herufi ndogo"
+    "message": "Kwa mtandao wa AVAX, weka herufi ndogo"
   },
   "invalidBlockExplorerURL": {
     "message": "Block Explorer URL batili"
@@ -585,7 +585,7 @@
     "message": "Kukuunganisha kwenye Ethereum na Wavutiu Uliotawanywa."
   },
   "metamaskVersion": {
-    "message": "Toleo la MetaMask"
+    "message": "Toleo la WutangMask"
   },
   "mobileSyncText": {
     "message": "Tafadhali ingiza nenosiri lako ili kuthibitisha kuwa ni wewe!"
@@ -600,17 +600,17 @@
     "message": "Akaunti angu za Waleti"
   },
   "myWalletAccountsDescription": {
-    "message": "Akaunti zako zote za MetaMask zilizofunguliwa zitaongezwa kiotomatiki kwenye sehemu hii."
+    "message": "Akaunti zako zote za WutangMask zilizofunguliwa zitaongezwa kiotomatiki kwenye sehemu hii."
   },
   "needEtherInWallet": {
-    "message": "Ili kuingiliana na programu zilizosambazwa kwa kutumia MetaMask, utahitaji kuwa na Ether kwenye waleti yako."
+    "message": "Ili kuingiliana na programu zilizosambazwa kwa kutumia WutangMask, utahitaji kuwa na Ether kwenye waleti yako."
   },
   "needImportFile": {
     "message": "Unapaswa kuchagua faili la kuhamisha.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Haiwezi kutuma viwango hasi vya ETH."
+    "message": "Haiwezi kutuma viwango hasi vya AVAX."
   },
   "networkName": {
     "message": "Jina la mtandao"
@@ -647,7 +647,7 @@
     "message": "Nenosiri Jipya (kiwango cha chini herufi 8)"
   },
   "newToMetaMask": {
-    "message": "MetaMask mpya?"
+    "message": "WutangMask mpya?"
   },
   "newTotal": {
     "message": "Jumla Mpya"
@@ -710,7 +710,7 @@
     "message": "Shiriki katika MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Shiriki katika MetaMetrics ili kutusaidia kufanya MetaMask kuwa bora zaidi"
+    "message": "Shiriki katika MetaMetrics ili kutusaidia kufanya WutangMask kuwa bora zaidi"
   },
   "password": {
     "message": "Nenosiri"
@@ -738,7 +738,7 @@
     "message": "Sarafu ya Msingi"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Chagua mzawa ili kuweka kipaumbele kuonyesha thamani kwenye sarafu mzawa ya mnyororo (k.m ETH). Chagua Fiat ili uwelke kipaumbale kuonyesha thamani kwenye sarafu yako ya fiat uliyoichagua."
+    "message": "Chagua mzawa ili kuweka kipaumbele kuonyesha thamani kwenye sarafu mzawa ya mnyororo (k.m AVAX). Chagua Fiat ili uwelke kipaumbale kuonyesha thamani kwenye sarafu yako ya fiat uliyoichagua."
   },
   "privacyMsg": {
     "message": "Sera ya Faragha"
@@ -757,7 +757,7 @@
     "message": "Linda Funguo Zako!"
   },
   "protectYourKeysMessage1": {
-    "message": "Kuwa mwangalifu na kirai kianzio chako - kumekuwa na taarifa za tovuti ambazo zinajaribu kuiga MetaMask. MetaMask kamwe haitakuomba kirai kianzio chako!"
+    "message": "Kuwa mwangalifu na kirai kianzio chako - kumekuwa na taarifa za tovuti ambazo zinajaribu kuiga WutangMask. WutangMask kamwe haitakuomba kirai kianzio chako!"
   },
   "protectYourKeysMessage2": {
     "message": "Weka salama kirai kianzio chako. Ikiwa unaona kitu cha kilaghai, au huna uhakika na tovuti fulani, tuma barua pepe kwenda support@metamask.io"
@@ -849,8 +849,8 @@
   "rinkeby": {
     "message": "Mtandao wa Majaribio wa Rinkeby"
   },
-  "ropsten": {
-    "message": "Mtandao wa Majaribio wa Ropsten"
+  "avalanche": {
+    "message": "Mtandao wa Majaribio wa Avalanche"
   },
   "rpcUrl": {
     "message": "RPC URL mpya"
@@ -907,7 +907,7 @@
     "message": "Chagua Akaunti"
   },
   "selectAnAccountHelp": {
-    "message": "Chagua akaunti kuangalia kwenye MetaMask"
+    "message": "Chagua akaunti kuangalia kwenye WutangMask"
   },
   "selectCurrency": {
     "message": "Chagua Sarafu"
@@ -934,7 +934,7 @@
     "message": "Tuma Kiasi"
   },
   "sendETH": {
-    "message": "Tuma ETH"
+    "message": "Tuma AVAX"
   },
   "sendTokens": {
     "message": "Tuma Vianzio"
@@ -1051,16 +1051,16 @@
     "message": "Hakikisha hakuna mtu mwingine anayeangalia kwenye skrini yako unapokuwa unakagua msimbo huu."
   },
   "syncWithMobileComplete": {
-    "message": "Umefanikiwa kuoanisha data yako. Furahia programu yako ya simu ya MetaMask!"
+    "message": "Umefanikiwa kuoanisha data yako. Furahia programu yako ya simu ya WutangMask!"
   },
   "syncWithMobileDesc": {
-    "message": "Unaweza kuoanisha akaunti zako na taarifa kwa kifaa chako cha simu ya mkononi. Fungua programu ya simu ya MetaMask, kisha nenda kwenye \"Mipangilio\" na bofya kwenye \"Oanisha kutoka kwenye Kiendelezi cha Kivinjari\""
+    "message": "Unaweza kuoanisha akaunti zako na taarifa kwa kifaa chako cha simu ya mkononi. Fungua programu ya simu ya WutangMask, kisha nenda kwenye \"Mipangilio\" na bofya kwenye \"Oanisha kutoka kwenye Kiendelezi cha Kivinjari\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ikiwa ndio umefungua tu programu ya simu ya MetaMask kwa mara ya kwanza, fuata hatua kwenye simu yako."
+    "message": "Ikiwa ndio umefungua tu programu ya simu ya WutangMask kwa mara ya kwanza, fuata hatua kwenye simu yako."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Kagua msimbo huu kwa kutumia programu yako ya simu ya MetaMask"
+    "message": "Kagua msimbo huu kwa kutumia programu yako ya simu ya WutangMask"
   },
   "syncWithMobileTitle": {
     "message": "Oanisha na simu"
@@ -1151,7 +1151,7 @@
     "message": "Jaribu tena"
   },
   "typePassword": {
-    "message": "Andika nenosiri lako la MetaMask"
+    "message": "Andika nenosiri lako la WutangMask"
   },
   "unapproved": {
     "message": "Haijaidhinishwa"
@@ -1214,7 +1214,7 @@
     "message": "Kianzio cha Waleti"
   },
   "welcome": {
-    "message": "Karibu kwenye MetaMask"
+    "message": "Karibu kwenye WutangMask"
   },
   "welcomeBack": {
     "message": "Karibu Tena!"

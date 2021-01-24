@@ -17,7 +17,7 @@ import { MESSAGE_TYPE } from './enums'
  * @property {number} id An id to track and identify the message object
  * @property {Object} msgParams The parameters to pass to the eth_signTypedData method once the signature request is
  * approved.
- * @property {Object} msgParams.metamaskId Added to msgParams for tracking and identification within MetaMask.
+ * @property {Object} msgParams.metamaskId Added to msgParams for tracking and identification within WutangMask.
  * @property {Object} msgParams.from The address that is making the signature request.
  * @property {string} msgParams.data A hex string conversion of the raw buffer data of the signature request
  * @property {number} time The epoch time at which the this message was created
@@ -87,17 +87,17 @@ export default class TypedMessageManager extends EventEmitter {
           case 'rejected':
             return reject(
               ethErrors.provider.userRejectedRequest(
-                'MetaMask Message Signature: User denied message signature.',
+                'WutangMask Message Signature: User denied message signature.',
               ),
             )
           case 'errored':
             return reject(
-              new Error(`MetaMask Message Signature: ${data.error}`),
+              new Error(`WutangMask Message Signature: ${data.error}`),
             )
           default:
             return reject(
               new Error(
-                `MetaMask Message Signature: Unknown problem: ${JSON.stringify(
+                `WutangMask Message Signature: Unknown problem: ${JSON.stringify(
                   msgParams,
                 )}`,
               ),
@@ -193,7 +193,7 @@ export default class TypedMessageManager extends EventEmitter {
           const activeChainId = parseInt(this._getCurrentChainId(), 16)
           assert.ok(
             !Number.isNaN(activeChainId),
-            `Cannot sign messages for chainId "${chainId}", because MetaMask is switching networks.`,
+            `Cannot sign messages for chainId "${chainId}", because WutangMask is switching networks.`,
           )
           assert.equal(
             chainId,
@@ -236,8 +236,8 @@ export default class TypedMessageManager extends EventEmitter {
    * Approves a TypedMessage. Sets the message status via a call to this.setMsgStatusApproved, and returns a promise
    * with any the message params modified for proper signing.
    *
-   * @param {Object} msgParams - The msgParams to be used when eth_sign is called, plus data added by MetaMask.
-   * @param {Object} msgParams.metamaskId Added to msgParams for tracking and identification within MetaMask.
+   * @param {Object} msgParams - The msgParams to be used when eth_sign is called, plus data added by WutangMask.
+   * @param {Object} msgParams.metamaskId Added to msgParams for tracking and identification within WutangMask.
    * @returns {Promise<object>} Promises the msgParams object with metamaskId removed.
    *
    */

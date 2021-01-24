@@ -16,7 +16,7 @@ export default function IntroPopup({ onClose }) {
   const t = useContext(I18nContext)
   const enteredSwapsEvent = useNewMetricEvent({
     event: 'Swaps Opened',
-    properties: { source: 'Intro popup', active_currency: 'ETH' },
+    properties: { source: 'Intro popup', active_currency: 'AVAX' },
     category: 'swaps',
   })
   const blogPostVisitedEvent = useNewMetricEvent({

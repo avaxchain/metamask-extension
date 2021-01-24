@@ -1,4 +1,4 @@
-export const ETH = 'ETH'
+export const AVAX = 'AVAX'
 export const GWEI = 'GWEI'
 export const WEI = 'WEI'
 
@@ -9,7 +9,7 @@ export const NETWORK_TYPES = {
   KOVAN: 'kovan',
   MAINNET: 'mainnet',
   RINKEBY: 'rinkeby',
-  ROPSTEN: 'ropsten',
+  AVALANCHE: 'avalanche',
   GOERLI: 'goerli',
 }
 

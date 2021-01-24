@@ -30,7 +30,7 @@
     "message": "log aktivitas"
   },
   "addAcquiredTokens": {
-    "message": "Tambahkan token yang sudah Anda peroleh menggunakan MetaMask"
+    "message": "Tambahkan token yang sudah Anda peroleh menggunakan WutangMask"
   },
   "addAlias": {
     "message": "Tambah alias"
@@ -73,7 +73,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -101,7 +101,7 @@
     "message": "Jangka Waktu Keluar-Otomatis (menit)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Atur waktu diam dalam menit sebelum MetaMask mengeluarkan Anda secara otomatis"
+    "message": "Atur waktu diam dalam menit sebelum WutangMask mengeluarkan Anda secara otomatis"
   },
   "average": {
     "message": "Rata-rata"
@@ -113,7 +113,7 @@
     "message": "Kembali ke Semua"
   },
   "backupApprovalInfo": {
-    "message": "Kode rahasia Anda diperlukan untuk memulihkan dompet jika perangkat hilang, lupa sandi, harus menginstal ulang MetaMask, atau ingin mengakses dompet Anda di perangkat lain."
+    "message": "Kode rahasia Anda diperlukan untuk memulihkan dompet jika perangkat hilang, lupa sandi, harus menginstal ulang WutangMask, atau ingin mengakses dompet Anda di perangkat lain."
   },
   "backupApprovalNotice": {
     "message": "Cadangkan kode Pemulihan Rahasia guna mengamankan dompet dan dana Anda."
@@ -144,13 +144,13 @@
     "message": "Peramban Anda tidak didukung..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask dirancang dan dibangun di California."
+    "message": "WutangMask dirancang dan dibangun di California."
   },
   "buyWithWyre": {
-    "message": "Membeli ETH dengan Wyre"
+    "message": "Membeli AVAX dengan Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan ETH langsung ke akun  MetaMask."
+    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan AVAX langsung ke akun  WutangMask."
   },
   "bytes": {
     "message": "Byte"
@@ -168,7 +168,7 @@
     "message": "ID Rantai"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Anda harus menggunakan MetaMask di Google Chrome untuk menyambung ke dompet Perangkat Keras Anda."
+    "message": "Anda harus menggunakan WutangMask di Google Chrome untuk menyambung ke dompet Perangkat Keras Anda."
   },
   "clickToRevealSeed": {
     "message": "Klik di sini untuk mengungkapkan kata-kata rahasia"
@@ -212,8 +212,8 @@
   "connectingToRinkeby": {
     "message": "Menghubungkan ke Jaringan Uji Coba Rinkeby  "
   },
-  "connectingToRopsten": {
-    "message": "Menghubungkan ke Jaringan Uji Coba Ropsten "
+  "connectingToAvalanche": {
+    "message": "Menghubungkan ke Jaringan Uji Coba Avalanche "
   },
   "continueToWyre": {
     "message": "Lanjutkan ke Wyre"
@@ -339,7 +339,7 @@
     "message": "Jangan pernah bagikan frasa dengan siapa pun."
   },
   "endOfFlowMessage5": {
-    "message": "Hati-hati terhadap phishing! MetaMask tidak akan pernah meminta frasa benih Anda secara spontan."
+    "message": "Hati-hati terhadap phishing! WutangMask tidak akan pernah meminta frasa benih Anda secara spontan."
   },
   "endOfFlowMessage6": {
     "message": "Jika Anda perlu mencadangkan frase seed lagi, Anda dapat menemukannya dalam Pengaturan -> Keamanan."
@@ -348,7 +348,7 @@
     "message": "Jika Anda punya pertanyaan atau melihat sesuatu yang ganjil, kirimkan email ke support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask tidak dapat memulihkan frasa seed Anda. Pelajari lebih lanjut."
+    "message": "WutangMask tidak dapat memulihkan frasa seed Anda. Pelajari lebih lanjut."
   },
   "endOfFlowMessage9": {
     "message": "Pelajari lebih lanjut."
@@ -458,7 +458,7 @@
     "message": "Hubungkan dompet peranti keras"
   },
   "hardwareWalletsMsg": {
-    "message": "Pilih dompet hardware yang ingin Anda pakai dengan MetaMask"
+    "message": "Pilih dompet hardware yang ingin Anda pakai dengan WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "Kesulitan menghubungkan?"
@@ -487,7 +487,7 @@
     "message": "Impor Akun"
   },
   "importAccountMsg": {
-    "message": "Akun impor tidak akan dihubungkan dengan frasa benih akun MetaMask yang diciptakan pertama kali. Pelajari lebih lanjut tentang akun impor"
+    "message": "Akun impor tidak akan dihubungkan dengan frasa benih akun WutangMask yang diciptakan pertama kali. Pelajari lebih lanjut tentang akun impor"
   },
   "importAccountSeedPhrase": {
     "message": "Impor Akun dengan Frasa Benih"
@@ -527,7 +527,7 @@
     "message": "Alamat penerima tidak valid"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Bukan jaringan ETH, tetapkan ke huruf kecil"
+    "message": "Bukan jaringan AVAX, tetapkan ke huruf kecil"
   },
   "invalidBlockExplorerURL": {
     "message": "URL Block Explorer Tidak Sah"
@@ -591,7 +591,7 @@
     "message": "Menghubungkan Anda ke Ethereum dan Web Terdesentralisasi."
   },
   "metamaskVersion": {
-    "message": "Versi MetaMask"
+    "message": "Versi WutangMask"
   },
   "mobileSyncText": {
     "message": "Harap masukkan sandi untuk mengonfirmasi ini memang Anda!"
@@ -606,17 +606,17 @@
     "message": "Akun Dompet Saya"
   },
   "myWalletAccountsDescription": {
-    "message": "Semua akun Anda yang dibuat oleh MetaMask otomatis akan ditambahkan ke bagian ini."
+    "message": "Semua akun Anda yang dibuat oleh WutangMask otomatis akan ditambahkan ke bagian ini."
   },
   "needEtherInWallet": {
-    "message": "Untuk berinteraksi dengan aplikasi terdesentralisasi menggunakan MetaMask, Anda memerlukan adanya Ether di dompet Anda."
+    "message": "Untuk berinteraksi dengan aplikasi terdesentralisasi menggunakan WutangMask, Anda memerlukan adanya Ether di dompet Anda."
   },
   "needImportFile": {
     "message": "Anda harus memilih berkas untuk diimpor.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Tidak dapat mengirim nominal negatif ETH."
+    "message": "Tidak dapat mengirim nominal negatif AVAX."
   },
   "networkName": {
     "message": "Nama Jaringan"
@@ -653,7 +653,7 @@
     "message": "Kata Sandi Baru (min 8 karakter)"
   },
   "newToMetaMask": {
-    "message": "Baru di MetaMask?"
+    "message": "Baru di WutangMask?"
   },
   "newTotal": {
     "message": "Total Baru"
@@ -716,7 +716,7 @@
     "message": "Berpartisipasilah di MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Berpartisipasilah dalam MetaMetrics guna membantu kami menjadikan MetaMask lebih baik"
+    "message": "Berpartisipasilah dalam MetaMetrics guna membantu kami menjadikan WutangMask lebih baik"
   },
   "password": {
     "message": "Sandi"
@@ -744,7 +744,7 @@
     "message": "Mata Uang Utama"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: ETH). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
+    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: AVAX). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
   },
   "privacyMsg": {
     "message": "Kebijakan Privasi"
@@ -763,7 +763,7 @@
     "message": "Lindungi Kunci Anda!"
   },
   "protectYourKeysMessage1": {
-    "message": "Berhati-hatilah dengan frasa seed Anda — terdapat laporan tentang website yang coba mengimitasi MetaMask. MetaMask tidak akan pernah meminta frasa seed Anda!"
+    "message": "Berhati-hatilah dengan frasa seed Anda — terdapat laporan tentang website yang coba mengimitasi WutangMask. WutangMask tidak akan pernah meminta frasa seed Anda!"
   },
   "protectYourKeysMessage2": {
     "message": "Jaga keamanan frasa Anda. Jika Anda menemukan sesuatu yang mencurigakan, atau ragu dengan sebuah situs web, kirim surel ke support@metamask.io"
@@ -855,8 +855,8 @@
   "rinkeby": {
     "message": "Jaringan Uji Rinkeby"
   },
-  "ropsten": {
-    "message": "Jaringan Tes Ropsten"
+  "avalanche": {
+    "message": "Jaringan Tes Avalanche"
   },
   "rpcUrl": {
     "message": "URL RPC Baru"
@@ -913,7 +913,7 @@
     "message": "Pilih Akun"
   },
   "selectAnAccountHelp": {
-    "message": "Pilih akun untuk dilihat di MetaMask"
+    "message": "Pilih akun untuk dilihat di WutangMask"
   },
   "selectCurrency": {
     "message": "Pilih Mata Uang"
@@ -940,7 +940,7 @@
     "message": "Nominal Kirim"
   },
   "sendETH": {
-    "message": "Kirim ETH"
+    "message": "Kirim AVAX"
   },
   "sendTokens": {
     "message": "Kirim Token"
@@ -1057,16 +1057,16 @@
     "message": "Pastikan tidak ada yang melihat ke layar ketika kode ini Anda pindai"
   },
   "syncWithMobileComplete": {
-    "message": "Data Anda telah berhasil disinkronkan. Nikmati aplikasi mobile MetaMask!"
+    "message": "Data Anda telah berhasil disinkronkan. Nikmati aplikasi mobile WutangMask!"
   },
   "syncWithMobileDesc": {
-    "message": "Anda dapat menyinkronkan akun dan informasi Anda dengan perangkat seluler. Buka aplikasi seluler MetaMask, pilih \"Pengaturan\" lalu ketuk \"Sinkronkan dari Ekstensi Peramban\""
+    "message": "Anda dapat menyinkronkan akun dan informasi Anda dengan perangkat seluler. Buka aplikasi seluler WutangMask, pilih \"Pengaturan\" lalu ketuk \"Sinkronkan dari Ekstensi Peramban\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Jika Anda baru saja membuka aplikasi MetaMask Mobile untuk pertama kali, ikuti langkah-langkah pada ponsel Anda."
+    "message": "Jika Anda baru saja membuka aplikasi WutangMask Mobile untuk pertama kali, ikuti langkah-langkah pada ponsel Anda."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Pindai kode ini dengan aplikasi ponsel MetaMask "
+    "message": "Pindai kode ini dengan aplikasi ponsel WutangMask "
   },
   "syncWithMobileTitle": {
     "message": "Sinkronkan dengan seluler"
@@ -1148,7 +1148,7 @@
     "message": "Coba lagi"
   },
   "typePassword": {
-    "message": "Ketik kata sandi MetaMask Anda"
+    "message": "Ketik kata sandi WutangMask Anda"
   },
   "unapproved": {
     "message": "Tak disetujui"
@@ -1211,7 +1211,7 @@
     "message": "Benih Dompet"
   },
   "welcome": {
-    "message": "Selamat Datang di MetaMask"
+    "message": "Selamat Datang di WutangMask"
   },
   "welcomeBack": {
     "message": "Selamat Datang Kembali!"

@@ -10,7 +10,7 @@ const { version } = require('../../../app/manifest/_base.json')
  * will be created as random directories inside this.
  * @type {string}
  */
-const TEMP_PROFILE_PATH_PREFIX = path.join(os.tmpdir(), 'MetaMask-Fx-Profile')
+const TEMP_PROFILE_PATH_PREFIX = path.join(os.tmpdir(), 'WutangMask-Fx-Profile')
 
 /**
  * A wrapper around a {@code WebDriver} instance exposing Firefox-specific functionality

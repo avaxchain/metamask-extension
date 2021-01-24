@@ -22,7 +22,7 @@
     "description": "आवेदन का विवरण"
   },
   "appName": {
-    "message": "मेटामास्क/MetaMask",
+    "message": "मेटामास्क/WutangMask",
     "description": "एप्लिकेशन का नाम"
   },
   "approve": {
@@ -315,7 +315,7 @@
   "rinkeby": {
     "message": "रिचीव टेस्ट नेटवर्क"
   },
-  "ropsten": {
+  "avalanche": {
     "message": "रॉप्स्टेन टेस्ट नेटवर्क"
   },
   "save": {
@@ -340,7 +340,7 @@
     "message": "भेजें"
   },
   "sendETH": {
-    "message": "भेजें ETH"
+    "message": "भेजें AVAX"
   },
   "sendTokens": {
     "message": "भेजें टोकन"

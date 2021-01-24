@@ -20,7 +20,7 @@ describe('View Price Quote Difference', function () {
 
   const store = configureMockStore()(state)
 
-  // Sample transaction is 1 $ETH to ~42.880915 $LINK
+  // Sample transaction is 1 $AVAX to ~42.880915 $LINK
   const DEFAULT_PROPS = {
     usedQuote: {
       trade: {
@@ -54,7 +54,7 @@ describe('View Price Quote Difference', function () {
       },
       slippage: 2,
       sourceTokenInfo: {
-        symbol: 'ETH',
+        symbol: 'AVAX',
         name: 'Ether',
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,

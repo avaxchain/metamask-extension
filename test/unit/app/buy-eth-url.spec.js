@@ -7,7 +7,7 @@ describe('buy-eth-url', function () {
     amount: 5,
     address: '0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc',
   }
-  const ropsten = {
+  const avalanche = {
     network: '3',
   }
   const rinkeby = {
@@ -22,13 +22,13 @@ describe('buy-eth-url', function () {
 
     assert.equal(
       wyreUrl,
-      'https://pay.sendwyre.com/purchase?dest=ethereum:0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc&destCurrency=ETH&accountId=AC-7AG3W4XH4N2&paymentMethod=debit-card',
+      'https://pay.sendwyre.com/purchase?dest=ethereum:0x0dcd5d886577d5081b0c52e242ef29e70be3e7bc&destCurrency=AVAX&accountId=AC-7AG3W4XH4N2&paymentMethod=debit-card',
     )
   })
 
-  it('returns metamask ropsten faucet for network 3', function () {
-    const ropstenUrl = getBuyEthUrl(ropsten)
-    assert.equal(ropstenUrl, 'https://faucet.metamask.io/')
+  it('returns metamask avalanche faucet for network 3', function () {
+    const avalancheUrl = getBuyEthUrl(avalanche)
+    assert.equal(avalancheUrl, 'https://faucet.metamask.io/')
   })
 
   it('returns rinkeby dapp for network 4', function () {

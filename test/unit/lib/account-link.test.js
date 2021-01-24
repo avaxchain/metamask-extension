@@ -11,7 +11,7 @@ describe('Account link', function () {
           address: '0xabcd',
         },
         {
-          expected: 'https://ropsten.etherscan.io/address/0xdef0',
+          expected: 'https://avalanche.etherscan.io/address/0xdef0',
           network: 3,
           address: '0xdef0',
           rpcPrefs: {},

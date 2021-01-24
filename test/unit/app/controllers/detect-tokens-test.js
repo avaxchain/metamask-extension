@@ -9,7 +9,7 @@ import NetworkController from '../../../../app/scripts/controllers/network/netwo
 import PreferencesController from '../../../../app/scripts/controllers/preferences'
 import {
   MAINNET,
-  ROPSTEN,
+  AVALANCHE,
 } from '../../../../app/scripts/controllers/network/enums'
 
 describe('DetectTokensController', function () {
@@ -70,7 +70,7 @@ describe('DetectTokensController', function () {
 
   it('should not check tokens while on test network', async function () {
     sandbox.useFakeTimers()
-    network.setProviderType(ROPSTEN)
+    network.setProviderType(AVALANCHE)
     const controller = new DetectTokensController({
       preferences,
       network,

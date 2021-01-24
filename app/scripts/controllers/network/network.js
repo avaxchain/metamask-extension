@@ -39,7 +39,7 @@ if (process.env.IN_TEST === 'true') {
 }
 
 const defaultProviderConfig = {
-  ticker: 'ETH',
+  ticker: 'AVAX',
   ...defaultProviderConfigOpts,
 }
 
@@ -159,7 +159,7 @@ export default class NetworkController extends EventEmitter {
     return NETWORK_TYPE_TO_ID_MAP[type]?.chainId || configChainId
   }
 
-  setRpcTarget(rpcUrl, chainId, ticker = 'ETH', nickname = '', rpcPrefs) {
+  setRpcTarget(rpcUrl, chainId, ticker = 'AVAX', nickname = '', rpcPrefs) {
     this.setProviderConfig({
       type: 'rpc',
       rpcUrl,
@@ -170,7 +170,7 @@ export default class NetworkController extends EventEmitter {
     })
   }
 
-  async setProviderType(type, rpcUrl = '', ticker = 'ETH', nickname = '') {
+  async setProviderType(type, rpcUrl = '', ticker = 'AVAX', nickname = '') {
     assert.notEqual(
       type,
       'rpc',

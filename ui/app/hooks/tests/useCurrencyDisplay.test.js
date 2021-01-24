@@ -36,19 +36,19 @@ const tests = [
   {
     input: {
       value: '0x1193461d01595930',
-      currency: 'ETH',
+      currency: 'AVAX',
       numberOfDecimals: 3,
     },
     result: {
       value: '1.266',
-      suffix: 'ETH',
-      displayValue: '1.266 ETH',
+      suffix: 'AVAX',
+      displayValue: '1.266 AVAX',
     },
   },
   {
     input: {
       value: '0x1193461d01595930',
-      currency: 'ETH',
+      currency: 'AVAX',
       numberOfDecimals: 3,
       hideLabel: true,
     },
@@ -61,7 +61,7 @@ const tests = [
   {
     input: {
       value: '0x3b9aca00',
-      currency: 'ETH',
+      currency: 'AVAX',
       denomination: 'GWEI',
       hideLabel: true,
     },
@@ -74,7 +74,7 @@ const tests = [
   {
     input: {
       value: '0x3b9aca00',
-      currency: 'ETH',
+      currency: 'AVAX',
       denomination: 'WEI',
       hideLabel: true,
     },
@@ -87,7 +87,7 @@ const tests = [
   {
     input: {
       value: '0x3b9aca00',
-      currency: 'ETH',
+      currency: 'AVAX',
       numberOfDecimals: 100,
       hideLabel: true,
     },
@@ -107,7 +107,7 @@ describe('useCurrencyDisplay', function () {
         if (selector === getCurrentCurrency) {
           return 'usd'
         } else if (selector === getNativeCurrency) {
-          return 'ETH'
+          return 'AVAX'
         } else if (selector === getConversionRate) {
           return 280.45
         }

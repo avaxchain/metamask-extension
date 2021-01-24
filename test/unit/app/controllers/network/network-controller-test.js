@@ -74,7 +74,7 @@ describe('NetworkController', function () {
       const tests = [
         {
           input: '3',
-          expected: 'Ropsten',
+          expected: 'Avalanche',
         },
         {
           input: '4',
@@ -86,7 +86,7 @@ describe('NetworkController', function () {
         },
         {
           input: '0x3',
-          expected: 'Ropsten',
+          expected: 'Avalanche',
         },
         {
           input: '0x4',
@@ -97,8 +97,8 @@ describe('NetworkController', function () {
           expected: 'Kovan',
         },
         {
-          input: 'ropsten',
-          expected: 'Ropsten',
+          input: 'avalanche',
+          expected: 'Avalanche',
         },
         {
           input: 'rinkeby',

@@ -87,7 +87,7 @@ describe('TokenInput Component', function () {
       assert.strictEqual(wrapper.find(CurrencyDisplay).length, 1)
     })
 
-    it('should render properly with a token value for ETH', function () {
+    it('should render properly with a token value for AVAX', function () {
       const mockStore = {
         metamask: {
           currentCurrency: 'usd',
@@ -214,7 +214,7 @@ describe('TokenInput Component', function () {
       handleBlurSpy.resetHistory()
     })
 
-    it('should call onChange on input changes with the hex value for ETH', function () {
+    it('should call onChange on input changes with the hex value for AVAX', function () {
       const mockStore = {
         metamask: {
           currentCurrency: 'usd',

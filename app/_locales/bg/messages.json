@@ -30,7 +30,7 @@
     "message": "Дневник на дейността"
   },
   "addAcquiredTokens": {
-    "message": "Добавете жетоните, които сте придобили с помощта на MetaMask"
+    "message": "Добавете жетоните, които сте придобили с помощта на WutangMask"
   },
   "addAlias": {
     "message": "Добавете псевдоним"
@@ -73,7 +73,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -101,7 +101,7 @@
     "message": "Таймер за автоматично излизане (минути)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Задайте времето на неактивност в минути, преди MetaMask автоматично да Ви отпише от акаунта"
+    "message": "Задайте времето на неактивност в минути, преди WutangMask автоматично да Ви отпише от акаунта"
   },
   "average": {
     "message": "Средно аритметично"
@@ -113,7 +113,7 @@
     "message": "Назад към всички"
   },
   "backupApprovalInfo": {
-    "message": "Този секретен код е необходим за възстановяване на портфейла ви, в случай че загубите устройството си, забравите паролата си, трябва да инсталирате отново MetaMask или искате да получите достъп до портфейла си на друго устройство."
+    "message": "Този секретен код е необходим за възстановяване на портфейла ви, в случай че загубите устройството си, забравите паролата си, трябва да инсталирате отново WutangMask или искате да получите достъп до портфейла си на друго устройство."
   },
   "backupApprovalNotice": {
     "message": "Раправете резервно копие на вашия Secret Recovery код, за да запазите портфейла и средствата си."
@@ -144,13 +144,13 @@
     "message": "Браузърът ви не се поддържа ..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask е проектиран и създаден в Калифорния."
+    "message": "WutangMask е проектиран и създаден в Калифорния."
   },
   "buyWithWyre": {
-    "message": "Купете ETH с Wyre"
+    "message": "Купете AVAX с Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ви позволява да използвате кредитна карта, за да депозирате ETH право във вашата MetaMask сметка."
+    "message": "Wyre ви позволява да използвате кредитна карта, за да депозирате AVAX право във вашата WutangMask сметка."
   },
   "bytes": {
     "message": "Байта"
@@ -168,7 +168,7 @@
     "message": "Идентификатор на веригата"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "За да се свържете с хардуерния си портфейл, трябва да използвате MetaMask в Google Chrome."
+    "message": "За да се свържете с хардуерния си портфейл, трябва да използвате WutangMask в Google Chrome."
   },
   "clickToRevealSeed": {
     "message": "Кликнете тук, за да разкриете тайните думи"
@@ -212,8 +212,8 @@
   "connectingToRinkeby": {
     "message": "Свързване с тестова мрежа на Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Свързване с тестова мрежа Ropsten"
+  "connectingToAvalanche": {
+    "message": "Свързване с тестова мрежа Avalanche"
   },
   "continueToWyre": {
     "message": "Продължете към Wyre"
@@ -345,7 +345,7 @@
     "message": "Никога не споделяйте фразата с никого."
   },
   "endOfFlowMessage5": {
-    "message": "Внимавайте с фишинга! MetaMask никога няма да поиска спонтанно вашата фраза зародиш."
+    "message": "Внимавайте с фишинга! WutangMask никога няма да поиска спонтанно вашата фраза зародиш."
   },
   "endOfFlowMessage6": {
     "message": "Ако отново трябва да архивирате основната си фраза, можете да я намерите в Настройки -> Защита."
@@ -354,7 +354,7 @@
     "message": "Ако имате въпроси или забележите нещо съмнително, изпратете имейл на support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask не може да възстанови ключовата Ви фраза. Научете повече."
+    "message": "WutangMask не може да възстанови ключовата Ви фраза. Научете повече."
   },
   "endOfFlowMessage9": {
     "message": "Научете повече."
@@ -464,7 +464,7 @@
     "message": "Свържете хардуерен портфейл"
   },
   "hardwareWalletsMsg": {
-    "message": "Изберете хардуерен портфейл, който искате да използвате с MetaMask"
+    "message": "Изберете хардуерен портфейл, който искате да използвате с WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "Имате проблеми със свързването?"
@@ -533,7 +533,7 @@
     "message": "Адресът на получателя е невалиден"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Не е ETH мрежа, задаване на малки букви"
+    "message": "Не е AVAX мрежа, задаване на малки букви"
   },
   "invalidBlockExplorerURL": {
     "message": "Невалиден Block Explorer URL адрес"
@@ -603,7 +603,7 @@
     "message": "Свързва ви с Ethereum и децентрализираната мрежа."
   },
   "metamaskVersion": {
-    "message": "Версия на MetaMask"
+    "message": "Версия на WutangMask"
   },
   "mobileSyncText": {
     "message": "Моля, въведете вашата парола, за да потвърдите, че сте вие!"
@@ -618,17 +618,17 @@
     "message": "Моите акаунти в портфейла"
   },
   "myWalletAccountsDescription": {
-    "message": "Всичките ви създадени от MetaMask акаунти ще бъдат автоматично добавени в този раздел."
+    "message": "Всичките ви създадени от WutangMask акаунти ще бъдат автоматично добавени в този раздел."
   },
   "needEtherInWallet": {
-    "message": "За да взаимодействате с децентрализираните приложения, използвайки MetaMask, ще ви е необходим етер в портфейла ви."
+    "message": "За да взаимодействате с децентрализираните приложения, използвайки WutangMask, ще ви е необходим етер в портфейла ви."
   },
   "needImportFile": {
     "message": "Трябва да изберете файл за импортиране.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Не може да изпраща отрицателни суми от ETH."
+    "message": "Не може да изпраща отрицателни суми от AVAX."
   },
   "networkName": {
     "message": "Име на мрежата"
@@ -665,7 +665,7 @@
     "message": "Нова парола (мин. 8 символа)"
   },
   "newToMetaMask": {
-    "message": "Нови ли сте в MetaMask?"
+    "message": "Нови ли сте в WutangMask?"
   },
   "newTotal": {
     "message": "Ново общо"
@@ -728,7 +728,7 @@
     "message": "Участвайте в MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Участвайте в MetaMetrics, за да ни помогнете да подобрим MetaMask"
+    "message": "Участвайте в MetaMetrics, за да ни помогнете да подобрим WutangMask"
   },
   "password": {
     "message": "Парола"
@@ -756,7 +756,7 @@
     "message": "Основна валута"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Изберете местна, за да приоритизирате показването на стойности в основната валута на веригата (например ETH). Изберете Fiat, за да поставите приоритет на показването на стойности в избраната от вас fiat валута."
+    "message": "Изберете местна, за да приоритизирате показването на стойности в основната валута на веригата (например AVAX). Изберете Fiat, за да поставите приоритет на показването на стойности в избраната от вас fiat валута."
   },
   "privacyMsg": {
     "message": "Политика за поверителност"
@@ -775,7 +775,7 @@
     "message": "Защитете ключовете си!"
   },
   "protectYourKeysMessage1": {
-    "message": "Внимавайте с вашата фраза - има съобщения за уебсайтове, които се опитват да имитират MetaMask. MetaMask никога няма да поиска вашата фраза-зародиш!"
+    "message": "Внимавайте с вашата фраза - има съобщения за уебсайтове, които се опитват да имитират WutangMask. WutangMask никога няма да поиска вашата фраза-зародиш!"
   },
   "protectYourKeysMessage2": {
     "message": "Пазете фразата си. Ако забележите нещо съмнително или не сте сигурни за даден уебсайт, изпратете имейл на support@metamask.io"
@@ -867,8 +867,8 @@
   "rinkeby": {
     "message": "Тестова мрежа на Rinkeby"
   },
-  "ropsten": {
-    "message": "Тестова мрежа Ropsten"
+  "avalanche": {
+    "message": "Тестова мрежа Avalanche"
   },
   "rpcUrl": {
     "message": "Нов URL адрес за RPC"
@@ -925,7 +925,7 @@
     "message": "Изберете акаунт"
   },
   "selectAnAccountHelp": {
-    "message": "Изберете акаунта за преглед в MetaMask"
+    "message": "Изберете акаунта за преглед в WutangMask"
   },
   "selectCurrency": {
     "message": "Изберете валута"
@@ -952,7 +952,7 @@
     "message": "Изпратете сумата"
   },
   "sendETH": {
-    "message": "Изпрати ETH"
+    "message": "Изпрати AVAX"
   },
   "sendTokens": {
     "message": "Изпращане на жетони"
@@ -1069,16 +1069,16 @@
     "message": "Уверете се, че никой друг не гледа екрана ви, когато сканирате този код"
   },
   "syncWithMobileComplete": {
-    "message": "Вашите данни са синхронизирани успешно. Насладете се на мобилното приложение MetaMask!"
+    "message": "Вашите данни са синхронизирани успешно. Насладете се на мобилното приложение WutangMask!"
   },
   "syncWithMobileDesc": {
-    "message": "Можете да синхронизирате вашите акаунти и информация с мобилното си устройство. Отворете мобилното приложение MetaMask, отидете на „Настройки“ и докоснете „Синхронизиране от разширението на браузъра“"
+    "message": "Можете да синхронизирате вашите акаунти и информация с мобилното си устройство. Отворете мобилното приложение WutangMask, отидете на „Настройки“ и докоснете „Синхронизиране от разширението на браузъра“"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Ако отворите приложението MetaMask Mobile за първи път, просто следвайте стъпките в телефона си."
+    "message": "Ако отворите приложението WutangMask Mobile за първи път, просто следвайте стъпките в телефона си."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Сканирайте този код с вашето мобилно приложение MetaMask"
+    "message": "Сканирайте този код с вашето мобилно приложение WutangMask"
   },
   "syncWithMobileTitle": {
     "message": "Синхронизиране с мобилни устройства"
@@ -1169,7 +1169,7 @@
     "message": "Нов опит"
   },
   "typePassword": {
-    "message": "Въведете паролата си за MetaMask"
+    "message": "Въведете паролата си за WutangMask"
   },
   "unapproved": {
     "message": "Неодобрено"
@@ -1232,7 +1232,7 @@
     "message": "Начална фраза за портфейл "
   },
   "welcome": {
-    "message": "Добре дошли в MetaMask"
+    "message": "Добре дошли в WutangMask"
   },
   "welcomeBack": {
     "message": "Добре дошли отново!"

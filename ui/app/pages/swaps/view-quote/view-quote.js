@@ -386,7 +386,7 @@ export default function ViewQuote() {
       showModal({
         name: 'EDIT_APPROVAL_PERMISSION',
         decimals: selectedFromToken.decimals,
-        origin: 'MetaMask',
+        origin: 'WutangMask',
         setCustomAmount: (newCustomPermissionAmount) => {
           const customPermissionAmount =
             newCustomPermissionAmount === ''
@@ -424,7 +424,7 @@ export default function ViewQuote() {
     .toString(16)
   const extraNetworkFeeTotalInEth = getValueFromWeiHex({
     value: extraNetworkFeeTotalInHexWEI,
-    toDenomination: 'ETH',
+    toDenomination: 'AVAX',
     numberOfDecimals: 4,
   })
 
@@ -468,9 +468,9 @@ export default function ViewQuote() {
     <span key="swapApproveNeedMoreTokens-1" className="view-quote__bold">
       {tokenBalanceNeeded || ethBalanceNeeded}
     </span>,
-    tokenBalanceNeeded && !(sourceTokenSymbol === 'ETH')
+    tokenBalanceNeeded && !(sourceTokenSymbol === 'AVAX')
       ? sourceTokenSymbol
-      : 'ETH',
+      : 'AVAX',
   ])
 
   const viewQuotePriceDifferenceComponent = (
@@ -561,7 +561,7 @@ export default function ViewQuote() {
               setSelectQuotePopoverShown(true)
             }}
             tokenConversionRate={
-              destinationTokenSymbol === 'ETH'
+              destinationTokenSymbol === 'AVAX'
                 ? 1
                 : memoizedTokenConversionRates[destinationToken.address]
             }
@@ -572,7 +572,7 @@ export default function ViewQuote() {
         onSubmit={() => {
           if (!balanceError) {
             dispatch(signAndSendTransactions(history, metaMetricsEvent))
-          } else if (destinationToken.symbol === 'ETH') {
+          } else if (destinationToken.symbol === 'AVAX') {
             history.push(DEFAULT_ROUTE)
           } else {
             history.push(`${ASSET_ROUTE}/${destinationToken.address}`)

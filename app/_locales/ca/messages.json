@@ -30,7 +30,7 @@
     "message": "registre d'activitat"
   },
   "addAcquiredTokens": {
-    "message": "Afegeix les fitxes que has adquirit fent servir MetaMask"
+    "message": "Afegeix les fitxes que has adquirit fent servir WutangMask"
   },
   "addAlias": {
     "message": "Afegeix un àlies"
@@ -73,7 +73,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -101,7 +101,7 @@
     "message": "Temporitzador de tancament de sessió automàtic (minuts)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Configura el temps de repòs com minuts abans que MetaMask tanqui la sessió automàticament"
+    "message": "Configura el temps de repòs com minuts abans que WutangMask tanqui la sessió automàticament"
   },
   "average": {
     "message": "Mitjana"
@@ -113,7 +113,7 @@
     "message": "Torna a Tot"
   },
   "backupApprovalInfo": {
-    "message": "Aquest codi secret es requereix per recuperar el teu moneder en cas que perdis el dispositiu, oblidis la teva contrasenya, hagis de reinstal·lar MetaMask, o vulguis accedir al teu moneder des d'un altre dispositiu."
+    "message": "Aquest codi secret es requereix per recuperar el teu moneder en cas que perdis el dispositiu, oblidis la teva contrasenya, hagis de reinstal·lar WutangMask, o vulguis accedir al teu moneder des d'un altre dispositiu."
   },
   "backupApprovalNotice": {
     "message": "Fes una còpia de seguretat del teu codi Secret de Recuperació per mantenir el teu moneder i els teus fons segurs."
@@ -144,13 +144,13 @@
     "message": "El teu navegador no és suportat..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask ha estat dissenyat i desenvolupat a Califòrnia."
+    "message": "WutangMask ha estat dissenyat i desenvolupat a Califòrnia."
   },
   "buyWithWyre": {
-    "message": "Compra ETH amb Wyre"
+    "message": "Compra AVAX amb Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar ETH directe al teu compte MetaMask."
+    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar AVAX directe al teu compte WutangMask."
   },
   "cancel": {
     "message": "Cancel·la"
@@ -165,7 +165,7 @@
     "message": "Cadena ID"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Necessites fer servir MetaMask amb Google Chrome per a connectar-te al teu Moneder Hardware."
+    "message": "Necessites fer servir WutangMask amb Google Chrome per a connectar-te al teu Moneder Hardware."
   },
   "clickToRevealSeed": {
     "message": "Fes clic aquí per a revelar les paraules secretes"
@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Connectant a la Xarxa de Prova Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Connectant a la xarxa de test Ropsten"
+  "connectingToAvalanche": {
+    "message": "Connectant a la xarxa de test Avalanche"
   },
   "continueToWyre": {
     "message": "Continua a Wyre"
@@ -342,7 +342,7 @@
     "message": "No comparteixis mai la frase amb ningú."
   },
   "endOfFlowMessage5": {
-    "message": "Estigues atent amb el phishing! MetaMask no et preguntarà mai espontàniament la teva frase de recuperació."
+    "message": "Estigues atent amb el phishing! WutangMask no et preguntarà mai espontàniament la teva frase de recuperació."
   },
   "endOfFlowMessage6": {
     "message": "Si necessites fer una còpia de seguretat de la teva frase de recuperació una altra vegada, la pots trobar a Configuració-> Seguretat."
@@ -351,7 +351,7 @@
     "message": "Si mai tens preguntes o veus alguna cosa sospitosa, envia un correu a support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask no pot recuperar la teva seedphrase. Descobreix per què."
+    "message": "WutangMask no pot recuperar la teva seedphrase. Descobreix per què."
   },
   "endOfFlowMessage9": {
     "message": "Més informació."
@@ -455,7 +455,7 @@
     "message": "Connectar un moneder hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selecciona una cartera de hardware que t'agradaria utilizar amb MetaMask"
+    "message": "Selecciona una cartera de hardware que t'agradaria utilizar amb WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "Problemes per connectar?"
@@ -484,7 +484,7 @@
     "message": "Importa compte"
   },
   "importAccountMsg": {
-    "message": "Els comptes importats no s'associaran amb la teva frase de recuperació creada originalment a MetaMask. Aprèn més sobre els comptes importats"
+    "message": "Els comptes importats no s'associaran amb la teva frase de recuperació creada originalment a WutangMask. Aprèn més sobre els comptes importats"
   },
   "importAccountSeedPhrase": {
     "message": "Importa un Compte amb Phrase de Recuperació"
@@ -524,7 +524,7 @@
     "message": "L'adreça del recipient no és vàlida"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No hi ha xarxa ETH, posar en minúscules"
+    "message": "No hi ha xarxa AVAX, posar en minúscules"
   },
   "invalidBlockExplorerURL": {
     "message": "URL de Block Explorer"
@@ -591,7 +591,7 @@
     "message": "Conectant-te a Ethereum i la web descentralitzada."
   },
   "metamaskVersion": {
-    "message": "Versió MetaMask"
+    "message": "Versió WutangMask"
   },
   "mobileSyncText": {
     "message": "Si us plau, introdueix la teva contrasenya per confirmar que ets tu!"
@@ -606,17 +606,17 @@
     "message": "Els meus Comptes de Moneder"
   },
   "myWalletAccountsDescription": {
-    "message": "Tots els teus comptes creats a MetaMask s'afegiran automàticament a aquesta secció."
+    "message": "Tots els teus comptes creats a WutangMask s'afegiran automàticament a aquesta secció."
   },
   "needEtherInWallet": {
-    "message": "Per a interactuar amb aplicacions descentralitzades fent servir MetaMask, necessitaràs Ether al teu moneder."
+    "message": "Per a interactuar amb aplicacions descentralitzades fent servir WutangMask, necessitaràs Ether al teu moneder."
   },
   "needImportFile": {
     "message": "Has de seleccionar un arxiu per a importar.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "No es poden enviar quantitats negatives de ETH."
+    "message": "No es poden enviar quantitats negatives de AVAX."
   },
   "networkName": {
     "message": "Nom de la xarxa"
@@ -653,7 +653,7 @@
     "message": "Nova contrasenya (mínim 8 caràcters)"
   },
   "newToMetaMask": {
-    "message": "Nou a MetaMask?"
+    "message": "Nou a WutangMask?"
   },
   "newTotal": {
     "message": "Nou total"
@@ -716,7 +716,7 @@
     "message": "Participar a MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa a MetaMetrics per ajudar-nos a fer MetaMask millor"
+    "message": "Participa a MetaMetrics per ajudar-nos a fer WutangMask millor"
   },
   "password": {
     "message": "Contrasenya"
@@ -741,7 +741,7 @@
     "message": "Divisa principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selecciona Natiu per a prioritzar la mostra de valors en la divisa nadiua de la cadena (p. ex. ETH). Selecciona Fiat per prioritzar la mostra de valors en la divisa fiduciària seleccionada."
+    "message": "Selecciona Natiu per a prioritzar la mostra de valors en la divisa nadiua de la cadena (p. ex. AVAX). Selecciona Fiat per prioritzar la mostra de valors en la divisa fiduciària seleccionada."
   },
   "privacyMsg": {
     "message": "Política de privadesa"
@@ -760,7 +760,7 @@
     "message": "Protegeix les Teves Claus!"
   },
   "protectYourKeysMessage1": {
-    "message": "Vigila amb la teva frase de recuperació  —s'han documentat casos de llocs web que intenten imitar MetaMask. MetaMask mai no et demanarà la frase de recuperació!"
+    "message": "Vigila amb la teva frase de recuperació  —s'han documentat casos de llocs web que intenten imitar WutangMask. WutangMask mai no et demanarà la frase de recuperació!"
   },
   "protectYourKeysMessage2": {
     "message": "Mantingues segura la teva frase. Si veus alguna cosa sospitosa, o no estàs segur d'un lloc web, envia un correu a support@metamask.io"
@@ -849,8 +849,8 @@
   "rinkeby": {
     "message": "Xarxa del test Rinkeby"
   },
-  "ropsten": {
-    "message": "Xarxa de Prova Ropsten"
+  "avalanche": {
+    "message": "Xarxa de Prova Avalanche"
   },
   "rpcUrl": {
     "message": "Nova URL de RPC"
@@ -907,7 +907,7 @@
     "message": "Selecciona un Compte"
   },
   "selectAnAccountHelp": {
-    "message": "Selecciona el compte que vols veure a MetaMask"
+    "message": "Selecciona el compte que vols veure a WutangMask"
   },
   "selectCurrency": {
     "message": "Selecciona divisa"
@@ -934,7 +934,7 @@
     "message": "Enviar Quantitat"
   },
   "sendETH": {
-    "message": "Envia ETH"
+    "message": "Envia AVAX"
   },
   "sendTokens": {
     "message": "Enviar Fitxes"
@@ -1051,16 +1051,16 @@
     "message": "Assegura't que no hi ha ningú mirant la teva pantalla quan escanegis aquest codi"
   },
   "syncWithMobileComplete": {
-    "message": "Les teves dades s'han sincronitzat amb èxit. Disfruta de l'app mòbil de MetaMask!"
+    "message": "Les teves dades s'han sincronitzat amb èxit. Disfruta de l'app mòbil de WutangMask!"
   },
   "syncWithMobileDesc": {
     "message": "Pots sincronitzar els teus comptes i la teva informació amb el teu dispositiu mòbil. Obre l'app mòbil de MetaTask, ves a \"Configuració\" i \"Sincronitzar desde l"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Si acabes d'obrir l'app mòbil MetaMask per primer cop, tan sols has de seguir els passos del teu telèfon."
+    "message": "Si acabes d'obrir l'app mòbil WutangMask per primer cop, tan sols has de seguir els passos del teu telèfon."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Escaneja aquest codi amb la teva aplicació mòbil de MetaMask"
+    "message": "Escaneja aquest codi amb la teva aplicació mòbil de WutangMask"
   },
   "syncWithMobileTitle": {
     "message": "Sincronitzar amb mòbil"
@@ -1142,7 +1142,7 @@
     "message": "Torna-ho a provar"
   },
   "typePassword": {
-    "message": "Tecleja la teva contrasenya de MetaMask"
+    "message": "Tecleja la teva contrasenya de WutangMask"
   },
   "unapproved": {
     "message": "Pendent d'aprovació"
@@ -1205,7 +1205,7 @@
     "message": "Cartera de seeds"
   },
   "welcome": {
-    "message": "Benvingut a MetaMask"
+    "message": "Benvingut a WutangMask"
   },
   "welcomeBack": {
     "message": "Benvingut de nou!"

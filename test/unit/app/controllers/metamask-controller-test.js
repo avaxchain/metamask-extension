@@ -915,7 +915,7 @@ describe('MetaMaskController', function () {
       } catch (error) {
         assert.equal(
           error.message,
-          'MetaMask Message Signature: from field is required.',
+          'WutangMask Message Signature: from field is required.',
         )
       }
     })

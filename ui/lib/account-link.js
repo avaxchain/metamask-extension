@@ -13,8 +13,8 @@ export default function getAccountLink(address, network, rpcPrefs) {
       return `https://etherscan.io/address/${address}`
     case 2: // morden test net
       return `https://morden.etherscan.io/address/${address}`
-    case 3: // ropsten test net
-      return `https://ropsten.etherscan.io/address/${address}`
+    case 3: // avalanche test net
+      return `https://cchain.explorer.avax.network/${address}`
     case 4: // rinkeby test net
       return `https://rinkeby.etherscan.io/address/${address}`
     case 42: // kovan test net

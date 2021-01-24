@@ -17,14 +17,14 @@ import SINGLE_CALL_BALANCES_ABI from 'single-call-balance-checker-abi'
 import {
   MAINNET_CHAIN_ID,
   RINKEBY_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  AVALANCHE_CHAIN_ID,
   KOVAN_CHAIN_ID,
 } from '../controllers/network/enums'
 
 import {
   SINGLE_CALL_BALANCES_ADDRESS,
   SINGLE_CALL_BALANCES_ADDRESS_RINKEBY,
-  SINGLE_CALL_BALANCES_ADDRESS_ROPSTEN,
+  SINGLE_CALL_BALANCES_ADDRESS_AVALANCHE,
   SINGLE_CALL_BALANCES_ADDRESS_KOVAN,
 } from '../controllers/network/contract-addresses'
 import { bnToHex } from './util'
@@ -222,10 +222,10 @@ export default class AccountTracker {
         )
         break
 
-      case ROPSTEN_CHAIN_ID:
+      case AVALANCHE_CHAIN_ID:
         await this._updateAccountsViaBalanceChecker(
           addresses,
-          SINGLE_CALL_BALANCES_ADDRESS_ROPSTEN,
+          SINGLE_CALL_BALANCES_ADDRESS_AVALANCHE,
         )
         break
 
@@ -279,7 +279,7 @@ export default class AccountTracker {
     ethContract.balances(addresses, ethBalance, (error, result) => {
       if (error) {
         log.warn(
-          `MetaMask - Account Tracker single call balance fetch failed`,
+          `WutangMask - Account Tracker single call balance fetch failed`,
           error,
         )
         Promise.all(addresses.map(this._updateAccount.bind(this)))

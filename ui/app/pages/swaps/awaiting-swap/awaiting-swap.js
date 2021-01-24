@@ -213,7 +213,7 @@ export default function AwaitingSwap({
             )
           } else if (errorKey) {
             await dispatch(navigateBackToBuildQuote(history))
-          } else if (destinationTokenInfo?.symbol === 'ETH') {
+          } else if (destinationTokenInfo?.symbol === 'AVAX') {
             history.push(DEFAULT_ROUTE)
           } else {
             history.push(`${ASSET_ROUTE}/${destinationTokenInfo?.address}`)

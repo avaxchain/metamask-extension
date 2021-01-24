@@ -8,7 +8,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('WutangMask', function () {
   let driver
 
   const testSeedPhrase =
@@ -198,7 +198,7 @@ describe('MetaMask', function () {
       const balance = await driver.findElement(
         By.css('[data-testid="wallet-balance"] .list-item__heading'),
       )
-      await driver.wait(until.elementTextMatches(balance, /25\s*ETH/u))
+      await driver.wait(until.elementTextMatches(balance, /25\s*AVAX/u))
       await driver.delay(regularDelayMs)
     })
   })
@@ -264,7 +264,7 @@ describe('MetaMask', function () {
       const txValues = await driver.findElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AVAX/u), 10000)
     })
   })
 
@@ -313,7 +313,7 @@ describe('MetaMask', function () {
       const txValues = await driver.findElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValues, /-2\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-2\s*AVAX/u), 10000)
     })
   })
 })

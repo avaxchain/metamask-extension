@@ -16,7 +16,7 @@
       "conversionDate": 1594348502.519,
       "conversionRate": 240.09,
       "currentCurrency": "usd",
-      "nativeCurrency": "ETH"
+      "nativeCurrency": "AVAX"
     },
     "IncomingTransactionsController": {
       "incomingTransactions": {},
@@ -36,7 +36,7 @@
         "nickname": "Localhost 8545",
         "rpcUrl": "http://localhost:8545",
         "chainId": "0x539",
-        "ticker": "ETH",
+        "ticker": "AVAX",
         "type": "rpc"
       },
       "network": "1337"
@@ -93,7 +93,7 @@
       "accountTokens": {
         "0x5cfe73b6021e818b776b421b1c4db2474086a7e1": {
           "rinkeby": [],
-          "ropsten": []
+          "avalanche": []
         }
       },
       "assetImages": {},
@@ -139,7 +139,7 @@
         "http://127.0.0.1:8080": {
           "permissions": [
             {
-              "@context": ["https://github.com/MetaMask/rpc-cap"],
+              "@context": ["https://github.com/WutangMask/rpc-cap"],
               "parentCapability": "eth_accounts",
               "id": "f55a1c15-ea48-4088-968e-63be474d42fa",
               "date": 1594348332268,

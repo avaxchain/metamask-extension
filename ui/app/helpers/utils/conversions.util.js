@@ -1,4 +1,4 @@
-import { ETH, GWEI, WEI } from '../constants/common'
+import { AVAX, GWEI, WEI } from '../constants/common'
 import { addHexPrefix } from '../../../../app/scripts/lib/util'
 import {
   conversionUtil,
@@ -27,7 +27,7 @@ export function decimalToHex(decimal) {
 
 export function getEthConversionFromWeiHex({
   value,
-  fromCurrency = ETH,
+  fromCurrency = AVAX,
   conversionRate,
   numberOfDecimals = 6,
 }) {
@@ -56,7 +56,7 @@ export function getEthConversionFromWeiHex({
 
 export function getValueFromWeiHex({
   value,
-  fromCurrency = ETH,
+  fromCurrency = AVAX,
   toCurrency,
   conversionRate,
   numberOfDecimals,
@@ -84,7 +84,7 @@ export function getWeiHexFromDecimalValue({
   return conversionUtil(value, {
     fromNumericBase: 'dec',
     toNumericBase: 'hex',
-    toCurrency: ETH,
+    toCurrency: AVAX,
     fromCurrency,
     conversionRate,
     invertConversionRate,
@@ -119,7 +119,7 @@ export function decEthToConvertedCurrency(
   return conversionUtil(ethTotal, {
     fromNumericBase: 'dec',
     toNumericBase: 'dec',
-    fromCurrency: 'ETH',
+    fromCurrency: 'AVAX',
     toCurrency: convertedCurrency,
     numberOfDecimals: 2,
     conversionRate,
@@ -148,7 +148,7 @@ export function decETHToDecWEI(decEth) {
   return conversionUtil(decEth, {
     fromNumericBase: 'dec',
     toNumericBase: 'dec',
-    fromDenomination: 'ETH',
+    fromDenomination: 'AVAX',
     toDenomination: 'WEI',
   })
 }
@@ -158,7 +158,7 @@ export function hexWEIToDecETH(hexWEI) {
     fromNumericBase: 'hex',
     toNumericBase: 'dec',
     fromDenomination: 'WEI',
-    toDenomination: 'ETH',
+    toDenomination: 'AVAX',
   })
 }
 
@@ -184,7 +184,7 @@ export function sumHexWEIsToUnformattedFiat(
   const convertedTotal = decEthToConvertedCurrency(
     getValueFromWeiHex({
       value: hexWEIsSum,
-      toCurrency: 'ETH',
+      toCurrency: 'AVAX',
       numberOfDecimals: 4,
     }),
     convertedCurrency,

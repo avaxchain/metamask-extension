@@ -175,40 +175,40 @@ describe('util', function () {
       assert.strictEqual(result, 'None', 'should return "None"')
     })
 
-    it('should return 1.0000 ETH', function () {
+    it('should return 1.0000 AVAX', function () {
       const input = new ethUtil.BN(ethInWei, 10).toJSON()
       const result = util.formatBalance(input, 4)
-      assert.strictEqual(result, '1.0000 ETH')
+      assert.strictEqual(result, '1.0000 AVAX')
     })
 
-    it('should return 0.500 ETH', function () {
+    it('should return 0.500 AVAX', function () {
       const input = new ethUtil.BN(ethInWei, 10)
         .div(new ethUtil.BN('2', 10))
         .toJSON()
       const result = util.formatBalance(input, 3)
-      assert.strictEqual(result, '0.500 ETH')
+      assert.strictEqual(result, '0.500 AVAX')
     })
 
     it('should display specified decimal points', function () {
       const input = '0x128dfa6a90b28000'
       const result = util.formatBalance(input, 2)
-      assert.strictEqual(result, '1.33 ETH')
+      assert.strictEqual(result, '1.33 AVAX')
     })
     it('should default to 3 decimal points', function () {
       const input = '0x128dfa6a90b28000'
       const result = util.formatBalance(input)
-      assert.strictEqual(result, '1.337 ETH')
+      assert.strictEqual(result, '1.337 AVAX')
     })
     it('should show 2 significant digits for tiny balances', function () {
       const input = '0x1230fa6a90b28'
       const result = util.formatBalance(input)
-      assert.strictEqual(result, '0.00032 ETH')
+      assert.strictEqual(result, '0.00032 AVAX')
     })
-    it('should not parse the balance and return value with 2 decimal points with ETH at the end', function () {
+    it('should not parse the balance and return value with 2 decimal points with AVAX at the end', function () {
       const value = '1.2456789'
       const needsParse = false
       const result = util.formatBalance(value, 2, needsParse)
-      assert.strictEqual(result, '1.24 ETH')
+      assert.strictEqual(result, '1.24 AVAX')
     })
   })
 

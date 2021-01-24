@@ -34,7 +34,7 @@ const tokenTransactionFilter = ({
   if (TOKEN_CATEGORY_HASH[transactionCategory]) {
     return false
   } else if (transactionCategory === TRANSACTION_CATEGORIES.SWAP) {
-    return destinationTokenSymbol === 'ETH' || sourceTokenSymbol === 'ETH'
+    return destinationTokenSymbol === 'AVAX' || sourceTokenSymbol === 'AVAX'
   }
   return true
 }

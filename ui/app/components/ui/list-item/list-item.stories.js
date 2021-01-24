@@ -66,7 +66,7 @@ export const pending = () => (
     subtitle={text('subtitle', 'Turtlefarm.com')}
     rightContent={
       <Currencies
-        primary={text('primaryCurrency', '- 0.0732 ETH')}
+        primary={text('primaryCurrency', '- 0.0732 AVAX')}
         secondary={text('secondaryCurrency', '- $6.00 USD')}
       />
     }
@@ -81,7 +81,7 @@ export const approve = () => (
     subtitle={text('subtitle', 'Sept 20 · oxuniverse.com')}
     rightContent={
       <Currencies
-        primary={text('primaryCurrency', '- 0 ETH')}
+        primary={text('primaryCurrency', '- 0 AVAX')}
         secondary={text('secondaryCurrency', '- $0.00 USD')}
       />
     }
@@ -96,7 +96,7 @@ export const receive = () => (
     subtitle={text('subtitle', 'Sept 20 · From: 00X4...3058')}
     rightContent={
       <Currencies
-        primary={text('primaryCurrency', '7.5 ETH')}
+        primary={text('primaryCurrency', '7.5 AVAX')}
         secondary={text('secondaryCurrency', '$1,425.00 USD')}
       />
     }

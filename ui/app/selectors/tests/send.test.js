@@ -112,7 +112,7 @@ describe('send selectors', function () {
 
   describe('getNativeCurrency()', function () {
     it('should return the ticker symbol of the selected network', function () {
-      assert.strictEqual(getNativeCurrency(mockState), 'ETH')
+      assert.strictEqual(getNativeCurrency(mockState), 'AVAX')
     })
   })
 

@@ -13,7 +13,7 @@ describe('UserPreferencedCurrencyDisplay Component', function () {
       sinon.stub(currencyHook, 'useCurrencyDisplay').returns(['1', {}])
       sinon
         .stub(currencyPrefHook, 'useUserPreferencedCurrency')
-        .returns({ currency: 'ETH', decimals: 6 })
+        .returns({ currency: 'AVAX', decimals: 6 })
     })
     it('should render properly', function () {
       const wrapper = shallow(<UserPreferencedCurrencyDisplay />)

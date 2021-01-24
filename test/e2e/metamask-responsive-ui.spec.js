@@ -9,7 +9,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('WutangMask', function () {
   let driver
 
   const testSeedPhrase =
@@ -218,12 +218,12 @@ describe('MetaMask', function () {
       const balance = await driver.findElement(
         By.css('[data-testid="eth-overview__primary-currency"]'),
       )
-      await driver.wait(until.elementTextMatches(balance, /100\s*ETH/u))
+      await driver.wait(until.elementTextMatches(balance, /100\s*AVAX/u))
       await driver.delay(regularDelayMs)
     })
   })
 
-  describe('Send ETH from inside MetaMask', function () {
+  describe('Send AVAX from inside WutangMask', function () {
     it('starts to send a transaction', async function () {
       await driver.clickElement(By.css('[data-testid="eth-overview-send"]'))
       await driver.delay(regularDelayMs)
@@ -279,7 +279,7 @@ describe('MetaMask', function () {
       const txValues = await driver.findElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AVAX/u), 10000)
     })
   })
 })

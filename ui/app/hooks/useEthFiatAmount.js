@@ -34,7 +34,7 @@ export function useEthFiatAmount(
 
   if (
     !showFiat ||
-    currentCurrency.toUpperCase() === 'ETH' ||
+    currentCurrency.toUpperCase() === 'AVAX' ||
     conversionRate <= 0 ||
     ethAmount === undefined
   ) {

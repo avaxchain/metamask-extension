@@ -101,7 +101,7 @@
     "message": "자동 로그아웃 타이머 (분)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMask가 자동으로 로그아웃되기 전 유휴 시간을 분 단위로 설정하세요"
+    "message": "WutangMask가 자동으로 로그아웃되기 전 유휴 시간을 분 단위로 설정하세요"
   },
   "average": {
     "message": "평균"
@@ -113,7 +113,7 @@
     "message": "전체로 돌아가기"
   },
   "backupApprovalInfo": {
-    "message": "이 비밀 코드는 기기를 분실해서 월렛을 복구해야 하거나, 비밀번호를 잊어버리거나, MetaMask를 재설치해야 하거나, 다른 기기에서 월렛에 접속하고 싶은 경우에  필요합니다."
+    "message": "이 비밀 코드는 기기를 분실해서 월렛을 복구해야 하거나, 비밀번호를 잊어버리거나, WutangMask를 재설치해야 하거나, 다른 기기에서 월렛에 접속하고 싶은 경우에  필요합니다."
   },
   "backupApprovalNotice": {
     "message": "비밀 복구 코드를 백업하여 월렛과 자금을 안전하게 유지하세요."
@@ -144,10 +144,10 @@
     "message": "메타마스크는 캘리포니아에서 디자인되고 만들어졌습니다."
   },
   "buyWithWyre": {
-    "message": "Wyre로 ETH 구매"
+    "message": "Wyre로 AVAX 구매"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre는 신용 카드를 사용하여 ETH을 바로 MetaMask 계정에 입금할 수 있게 해줍니다."
+    "message": "Wyre는 신용 카드를 사용하여 AVAX을 바로 WutangMask 계정에 입금할 수 있게 해줍니다."
   },
   "bytes": {
     "message": "바이트"
@@ -209,8 +209,8 @@
   "connectingToRinkeby": {
     "message": "Rinkeby 테스트넷 접속 중"
   },
-  "connectingToRopsten": {
-    "message": "Ropsten 테스트넷 접속 중"
+  "connectingToAvalanche": {
+    "message": "Avalanche 테스트넷 접속 중"
   },
   "continueToWyre": {
     "message": "Wyre로 계속 진행"
@@ -531,7 +531,7 @@
     "message": "수신 주소가 올바르지 않습니다"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "ETH 네트워크 아님, 소문자로 설정"
+    "message": "AVAX 네트워크 아님, 소문자로 설정"
   },
   "invalidBlockExplorerURL": {
     "message": "올바르지 않은 Block Explorer URI"
@@ -616,7 +616,7 @@
     "message": "나의 월렛 계정"
   },
   "myWalletAccountsDescription": {
-    "message": "MetaMask가 생성한 모든 계정이 이 섹션에 자동으로 추가됩니다."
+    "message": "WutangMask가 생성한 모든 계정이 이 섹션에 자동으로 추가됩니다."
   },
   "needEtherInWallet": {
     "message": "메타마스크를 통한 dApp을 이용하기 위해서는 지갑에 이더가 있어야 합니다."
@@ -751,7 +751,7 @@
     "message": "주 화폐"
   },
   "primaryCurrencySettingDescription": {
-    "message": "체인의 고유 통화 값으로 우선 표기하시려면 네이티브를 선택하세요. (예: ETH) 설정하신 Fiat 통화 값으로 우선 표기하시려면 Fiat을 선택하세요."
+    "message": "체인의 고유 통화 값으로 우선 표기하시려면 네이티브를 선택하세요. (예: AVAX) 설정하신 Fiat 통화 값으로 우선 표기하시려면 Fiat을 선택하세요."
   },
   "privacyMsg": {
     "message": "개인정보 보호 정책"
@@ -770,7 +770,7 @@
     "message": "키를 보호하세요!"
   },
   "protectYourKeysMessage1": {
-    "message": "시드 문구에 주의하세요 - MetaMask를 모방하려고 한 웹사이트들이 신고됐습니다. MetaMask는 절대로 시드 문구를 묻지 않습니다!"
+    "message": "시드 문구에 주의하세요 - WutangMask를 모방하려고 한 웹사이트들이 신고됐습니다. WutangMask는 절대로 시드 문구를 묻지 않습니다!"
   },
   "protectYourKeysMessage2": {
     "message": "시드 문구를 안전하게 유지하세요. 수상한 점을 발견하거나, 웹사이트에 확신이 들지 않으면 support@metamask.io로 이메일을 보내 주세요"
@@ -862,8 +862,8 @@
   "rinkeby": {
     "message": "Rinkeby 테스트넷"
   },
-  "ropsten": {
-    "message": "Ropsten 테스트넷"
+  "avalanche": {
+    "message": "Avalanche 테스트넷"
   },
   "rpcUrl": {
     "message": "새로운 RPC URL"
@@ -947,7 +947,7 @@
     "message": "전송 수량"
   },
   "sendETH": {
-    "message": "ETH 보내기"
+    "message": "AVAX 보내기"
   },
   "sendTokens": {
     "message": "토큰 전송"
@@ -1064,16 +1064,16 @@
     "message": "이 코드를 스캔할 때 귀하의 화면을 보는 사람이 없는 것을 확인하세요"
   },
   "syncWithMobileComplete": {
-    "message": "데이터가 성공적으로 동기화됐습니다. MetaMask 모바일 앱을 즐겁게 사용하세요!"
+    "message": "데이터가 성공적으로 동기화됐습니다. WutangMask 모바일 앱을 즐겁게 사용하세요!"
   },
   "syncWithMobileDesc": {
-    "message": "모바일 기기와 계정 및 정보를 동기화할 수 있습니다. MetaMask 모바일 앱을 열고, \"설정\"으로 간 다음 \"브라우저 확장 프로그램에서 동기화\"를 누르세요"
+    "message": "모바일 기기와 계정 및 정보를 동기화할 수 있습니다. WutangMask 모바일 앱을 열고, \"설정\"으로 간 다음 \"브라우저 확장 프로그램에서 동기화\"를 누르세요"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "처음으로 MetaMask 모바일 앱을 여시는 경우, 전화에 나온 과정을 따르세요."
+    "message": "처음으로 WutangMask 모바일 앱을 여시는 경우, 전화에 나온 과정을 따르세요."
   },
   "syncWithMobileScanThisCode": {
-    "message": "MetaMask 모바일 앱으로 이 코드를 스캔하세요"
+    "message": "WutangMask 모바일 앱으로 이 코드를 스캔하세요"
   },
   "syncWithMobileTitle": {
     "message": "모바일과 동기화"

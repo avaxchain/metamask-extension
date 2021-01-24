@@ -91,10 +91,10 @@ describe('Confirm Transaction utils', function () {
   })
 
   describe('getValueFromWeiHex', function () {
-    it('should get the transaction amount in ETH', function () {
+    it('should get the transaction amount in AVAX', function () {
       const ethTransactionAmount = utils.getValueFromWeiHex({
         value: '0xde0b6b3a7640000',
-        toCurrency: 'ETH',
+        toCurrency: 'AVAX',
         conversionRate: 468.58,
         numberOfDecimals: 6,
       })
@@ -115,10 +115,10 @@ describe('Confirm Transaction utils', function () {
   })
 
   describe('getTransactionFee', function () {
-    it('should get the transaction fee in ETH', function () {
+    it('should get the transaction fee in AVAX', function () {
       const ethTransactionFee = utils.getTransactionFee({
         value: '0x1319718a5000',
-        toCurrency: 'ETH',
+        toCurrency: 'AVAX',
         conversionRate: 468.58,
         numberOfDecimals: 6,
       })

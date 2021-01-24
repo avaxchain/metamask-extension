@@ -6,12 +6,12 @@ import {
   getValueFromWeiHex,
   getWeiHexFromDecimalValue,
 } from '../../../helpers/utils/conversions.util'
-import { ETH } from '../../../helpers/constants/common'
+import { AVAX } from '../../../helpers/constants/common'
 
 /**
  * Component that allows user to enter currency values as a number, and props receive a converted
  * hex value in WEI. props.value, used as a default or forced value, should be a hex value, which
- * gets converted into a decimal value depending on the currency (ETH or Fiat).
+ * gets converted into a decimal value depending on the currency (AVAX or Fiat).
  */
 export default class CurrencyInput extends PureComponent {
   static contextTypes = {
@@ -69,7 +69,7 @@ export default class CurrencyInput extends PureComponent {
         })
       : getValueFromWeiHex({
           value: hexValue,
-          toCurrency: ETH,
+          toCurrency: AVAX,
           numberOfDecimals: 6,
         })
 
@@ -110,8 +110,8 @@ export default class CurrencyInput extends PureComponent {
         })
       : getWeiHexFromDecimalValue({
           value: decimalValue,
-          fromCurrency: ETH,
-          fromDenomination: ETH,
+          fromCurrency: AVAX,
+          fromDenomination: AVAX,
           conversionRate,
         })
 
@@ -133,8 +133,8 @@ export default class CurrencyInput extends PureComponent {
     }
 
     if (this.shouldUseFiat()) {
-      // Display ETH
-      currency = nativeCurrency || ETH
+      // Display AVAX
+      currency = nativeCurrency || AVAX
       numberOfDecimals = 6
     } else {
       // Display Fiat

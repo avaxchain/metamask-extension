@@ -115,7 +115,7 @@ export default function MainQuoteSummary({
             secondaryTokenValue={destinationValue}
             secondaryTokenDecimals={destinationDecimals}
             secondaryTokenSymbol={destinationSymbol}
-            arrowColor="#037DD6"
+            arrowColor="#e84a71"
             boldSymbols={false}
             className="main-quote-summary__exchange-rate-display"
           />

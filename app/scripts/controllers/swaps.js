@@ -25,8 +25,8 @@ const METASWAP_ADDRESS = '0x881d40237659c251811cec9c364ef91dc08d300c'
 // The MAX_GAS_LIMIT is a number that is higher than the maximum gas costs we have observed on any aggregator
 const MAX_GAS_LIMIT = 2500000
 
-// To ensure that our serves are not spammed if MetaMask is left idle, we limit the number of fetches for quotes that are made on timed intervals.
-// 3 seems to be an appropriate balance of giving users the time they need when MetaMask is not left idle, and turning polling off when it is.
+// To ensure that our serves are not spammed if WutangMask is left idle, we limit the number of fetches for quotes that are made on timed intervals.
+// 3 seems to be an appropriate balance of giving users the time they need when WutangMask is not left idle, and turning polling off when it is.
 const POLL_COUNT_LIMIT = 3
 
 // If for any reason the MetaSwap API fails to provide a refresh time,
@@ -527,32 +527,32 @@ export default class SwapsController {
 
       // trade.value is a sum of different values depending on the transaction.
       // It always includes any external fees charged by the quote source. In
-      // addition, if the source asset is ETH, trade.value includes the amount
-      // of swapped ETH.
+      // addition, if the source asset is AVAX, trade.value includes the amount
+      // of swapped AVAX.
       const totalWeiCost = new BigNumber(gasTotalInWeiHex, 16).plus(
         trade.value,
         16,
       )
 
       const totalEthCost = conversionUtil(totalWeiCost, {
-        fromCurrency: 'ETH',
+        fromCurrency: 'AVAX',
         fromDenomination: 'WEI',
-        toDenomination: 'ETH',
+        toDenomination: 'AVAX',
         fromNumericBase: 'BN',
         numberOfDecimals: 6,
       })
 
       // The total fee is aggregator/exchange fees plus gas fees.
-      // If the swap is from ETH, subtract the sourceAmount from the total cost.
+      // If the swap is from AVAX, subtract the sourceAmount from the total cost.
       // Otherwise, the total fee is simply trade.value plus gas fees.
       const ethFee =
         sourceToken === ETH_SWAPS_TOKEN_ADDRESS
           ? conversionUtil(
               totalWeiCost.minus(sourceAmount, 10), // sourceAmount is in wei
               {
-                fromCurrency: 'ETH',
+                fromCurrency: 'AVAX',
                 fromDenomination: 'WEI',
-                toDenomination: 'ETH',
+                toDenomination: 'AVAX',
                 fromNumericBase: 'BN',
                 numberOfDecimals: 6,
               },

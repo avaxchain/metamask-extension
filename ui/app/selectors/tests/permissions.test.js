@@ -27,7 +27,7 @@ describe('selectors', function () {
             'peepeth.com': {
               permissions: [
                 {
-                  '@context': ['https://github.com/MetaMask/rpc-cap'],
+                  '@context': ['https://github.com/WutangMask/rpc-cap'],
                   caveats: [
                     {
                       name: 'exposedAccounts',
@@ -45,7 +45,7 @@ describe('selectors', function () {
             'https://remix.ethereum.org': {
               permissions: [
                 {
-                  '@context': ['https://github.com/MetaMask/rpc-cap'],
+                  '@context': ['https://github.com/WutangMask/rpc-cap'],
                   caveats: [
                     {
                       type: 'filterResponse',
@@ -102,7 +102,7 @@ describe('selectors', function () {
             'peepeth.com': {
               permissions: [
                 {
-                  '@context': ['https://github.com/MetaMask/rpc-cap'],
+                  '@context': ['https://github.com/WutangMask/rpc-cap'],
                   caveats: [
                     {
                       name: 'exposedAccounts',
@@ -120,7 +120,7 @@ describe('selectors', function () {
             'https://remix.ethereum.org': {
               permissions: [
                 {
-                  '@context': ['https://github.com/MetaMask/rpc-cap'],
+                  '@context': ['https://github.com/WutangMask/rpc-cap'],
                   caveats: [
                     {
                       type: 'filterResponse',
@@ -185,7 +185,7 @@ describe('selectors', function () {
           'https://remix.ethereum.org': {
             permissions: [
               {
-                '@context': ['https://github.com/MetaMask/rpc-cap'],
+                '@context': ['https://github.com/WutangMask/rpc-cap'],
                 caveats: [
                   {
                     name: 'exposedAccounts',
@@ -209,7 +209,7 @@ describe('selectors', function () {
           'peepeth.com': {
             permissions: [
               {
-                '@context': ['https://github.com/MetaMask/rpc-cap'],
+                '@context': ['https://github.com/WutangMask/rpc-cap'],
                 caveats: [
                   {
                     name: 'exposedAccounts',
@@ -342,7 +342,7 @@ describe('selectors', function () {
           'https://remix.ethereum.org': {
             permissions: [
               {
-                '@context': ['https://github.com/MetaMask/rpc-cap'],
+                '@context': ['https://github.com/WutangMask/rpc-cap'],
                 caveats: [
                   {
                     name: 'exposedAccounts',
@@ -363,7 +363,7 @@ describe('selectors', function () {
           'peepeth.com': {
             permissions: [
               {
-                '@context': ['https://github.com/MetaMask/rpc-cap'],
+                '@context': ['https://github.com/WutangMask/rpc-cap'],
                 caveats: [
                   {
                     name: 'exposedAccounts',
@@ -381,7 +381,7 @@ describe('selectors', function () {
           'uniswap.exchange': {
             permissions: [
               {
-                '@context': ['https://github.com/MetaMask/rpc-cap'],
+                '@context': ['https://github.com/WutangMask/rpc-cap'],
                 caveats: [
                   {
                     name: 'exposedAccounts',

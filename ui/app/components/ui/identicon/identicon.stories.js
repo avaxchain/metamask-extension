@@ -23,7 +23,7 @@ export const standard = () => (
   />
 )
 
-export const image = () => <Identicon image="./images/eth_logo.svg" />
+export const image = () => <Identicon image="./images/avax_logo.svg" />
 
 export const blockie = () => (
   <Identicon
@@ -33,7 +33,7 @@ export const blockie = () => (
 )
 
 // The border size is hard-coded in CSS, and was designed with this size identicon in mind
-const withBorderDiameter = 32
+const withBorderDiameter = 52
 
 export const withBorder = () => (
   <Identicon

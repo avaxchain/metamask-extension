@@ -513,7 +513,7 @@
       },
       "hash": "0xbcb195f393f4468945b4045cd41bcdbc2f19ad75ae92a32cf153a3004e42009a",
       "destinationTokenSymbol": "ABC",
-      "sourceTokenSymbol": "ETH",
+      "sourceTokenSymbol": "AVAX",
       "transactionCategory": "swap"
     },
     "primaryTransaction": {
@@ -534,7 +534,7 @@
       "transactionCategory": "swap",
       "destinationTokenSymbol": "ABC",
       "destinationTokenAddress": "0xabca64466f257793eaa52fcfff5066894b76a149",
-      "sourceTokenSymbol": "ETH"
+      "sourceTokenSymbol": "AVAX"
     },
     "hasRetried": false,
     "hasCancelled": false

@@ -21,7 +21,7 @@
     "message": "aktivite ki fèt"
   },
   "addAcquiredTokens": {
-    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk MetaMask"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk WutangMask"
   },
   "addSuggestedTokens": {
     "message": "Ajoute Token Yo Sikjere W"
@@ -40,7 +40,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -74,7 +74,7 @@
     "message": "Navigatè ou a pa sipòte..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fèt e bati nan California."
+    "message": "WutangMask fèt e bati nan California."
   },
   "cancel": {
     "message": "Anile"
@@ -83,7 +83,7 @@
     "message": "Anilasyon Gaz Chaj"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ou bezwen sèvi ak MetaMask sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
+    "message": "Ou bezwen sèvi ak WutangMask sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "close": {
     "message": "Fèmen"
@@ -112,8 +112,8 @@
   "connectingToRinkeby": {
     "message": "Konekte nan Rinkeby Tès Rezo a"
   },
-  "connectingToRopsten": {
-    "message": "Konekte ak Ropsten Tès Rezo a"
+  "connectingToAvalanche": {
+    "message": "Konekte ak Avalanche Tès Rezo a"
   },
   "contractDeployment": {
     "message": "Kontra Deplwaman"
@@ -254,7 +254,7 @@
     "message": "Materyèl Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak MetaMask"
+    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "Èske w gen pwoblèm pou konekte?"
@@ -280,7 +280,7 @@
     "message": "Pòte Kont"
   },
   "importAccountMsg": {
-    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont MetaMask seed fraz. Aprann plis sou kont enpòte "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont WutangMask seed fraz. Aprann plis sou kont enpòte "
   },
   "importUsingSeed": {
     "message": "Pòte lè sèvi avèk seed fraz"
@@ -354,10 +354,10 @@
     "message": "Mesaje"
   },
   "metamaskDescription": {
-    "message": "MetaMask sekirize idantite pou Ethereum."
+    "message": "WutangMask sekirize idantite pou Ethereum."
   },
   "metamaskVersion": {
-    "message": "MetaMask Vèsyon"
+    "message": "WutangMask Vèsyon"
   },
   "mustSelectOne": {
     "message": "Ou dwe chwazi omwen 1 token."
@@ -366,14 +366,14 @@
     "message": "Kont mwen"
   },
   "needEtherInWallet": {
-    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize MetaMask, ou pral bezwen Ether nan Wallet ou."
+    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize WutangMask, ou pral bezwen Ether nan Wallet ou."
   },
   "needImportFile": {
     "message": "Ou dwe chwazi yon dosye pou enpòte.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Pa ka voye kantite lajan negatif ETH."
+    "message": "Pa ka voye kantite lajan negatif AVAX."
   },
   "networks": {
     "message": "Rezo"
@@ -450,7 +450,7 @@
     "message": "Lajan ou itilize pi plis la"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Chwazi ETH pou bay priyorite montre valè nan ETH. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
+    "message": "Chwazi AVAX pou bay priyorite montre valè nan AVAX. Chwazi Fiat priyorite montre valè nan lajan ou chwazi a."
   },
   "privacyMsg": {
     "message": "Règleman sou enfòmasyon prive"
@@ -537,8 +537,8 @@
   "rinkeby": {
     "message": "Rinkeby Tès Rezo"
   },
-  "ropsten": {
-    "message": "Ropsten Tès Rezo"
+  "avalanche": {
+    "message": "Avalanche Tès Rezo"
   },
   "save": {
     "message": "Sove"
@@ -571,7 +571,7 @@
     "message": "Chwazi yon kont"
   },
   "selectAnAccountHelp": {
-    "message": "Chwazi kont pou wè nan MetaMask"
+    "message": "Chwazi kont pou wè nan WutangMask"
   },
   "selectCurrency": {
     "message": "Chwazi Lajan"
@@ -592,7 +592,7 @@
     "message": "Voye"
   },
   "sendETH": {
-    "message": "Voye ETH"
+    "message": "Voye AVAX"
   },
   "sendTokens": {
     "message": "Voye Tokens"
@@ -764,7 +764,7 @@
     "message": "Bous Seed"
   },
   "welcome": {
-    "message": "Byenveni nan MetaMask"
+    "message": "Byenveni nan WutangMask"
   },
   "welcomeBack": {
     "message": "Bon Retou!"

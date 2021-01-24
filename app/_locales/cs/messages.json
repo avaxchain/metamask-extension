@@ -22,7 +22,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -47,7 +47,7 @@
     "message": "Použít Blockies Identicon"
   },
   "builtInCalifornia": {
-    "message": "MetaMask je navržen a vytvořen v Kalifornii."
+    "message": "WutangMask je navržen a vytvořen v Kalifornii."
   },
   "cancel": {
     "message": "Zrušit"
@@ -70,8 +70,8 @@
   "connectingToRinkeby": {
     "message": "Připojuji se k Rinkeby Test Network"
   },
-  "connectingToRopsten": {
-    "message": "Připojuji se k Ropsten Test Network"
+  "connectingToAvalanche": {
+    "message": "Připojuji se k Avalanche C-Chain"
   },
   "contractDeployment": {
     "message": "Nasazení kontraktu"
@@ -239,7 +239,7 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "MetaMask je bezpečný osobní trezor pro Ethereum."
+    "message": "WutangMask je bezpečný osobní trezor pro Ethereum."
   },
   "mustSelectOne": {
     "message": "Musíte zvolit aspoň 1 token."
@@ -255,7 +255,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nelze odeslat zápornou částku ETH."
+    "message": "Nelze odeslat zápornou částku AVAX."
   },
   "networks": {
     "message": "Sítě"
@@ -360,7 +360,7 @@
     "message": "Odeslat"
   },
   "sendETH": {
-    "message": "Odeslat ETH"
+    "message": "Odeslat AVAX"
   },
   "sendTokens": {
     "message": "Odeslat tokeny"
@@ -460,7 +460,7 @@
     "message": "Klíčová fráze peněženky"
   },
   "welcome": {
-    "message": "Vítejte v MetaMask"
+    "message": "Vítejte v WutangMask"
   },
   "youSign": {
     "message": "Podepisujete"

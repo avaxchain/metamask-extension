@@ -9,7 +9,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('WutangMask', function () {
   let driver
   let publicAddress
 
@@ -174,7 +174,7 @@ describe('MetaMask', function () {
       await driver.clickElement(By.css('.network-name'))
       await driver.delay(regularDelayMs)
 
-      await driver.clickElement(By.xpath(`//span[contains(text(), 'Ropsten')]`))
+      await driver.clickElement(By.xpath(`//span[contains(text(), 'Avalanche')]`))
       await driver.delay(largeDelayMs)
     })
 

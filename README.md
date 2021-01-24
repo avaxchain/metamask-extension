@@ -1,16 +1,16 @@
-# MetaMask Browser Extension
+# WutangMask Browser Extension
 
-You can find the latest version of MetaMask on [our official website](https://metamask.io/). For help using MetaMask, visit our [User Support Site](https://metamask.zendesk.com/hc/en-us).
+You can find the latest version of WutangMask on [our official website](https://metamask.io/). For help using WutangMask, visit our [User Support Site](https://metamask.zendesk.com/hc/en-us).
 
 For [general questions](https://metamask.zendesk.com/hc/en-us/community/topics/360000682532-General), [feature requests](https://metamask.zendesk.com/hc/en-us/community/topics/360000682552-Feature-Requests-Ideas), or [developer questions](https://metamask.zendesk.com/hc/en-us/community/topics/360001751291-Developer-Questions), visit our [Community Forum](https://metamask.zendesk.com/hc/en-us/community/topics).
 
-MetaMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version.
+WutangMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version.
 
 For up to the minute news, follow our [Twitter](https://twitter.com/metamask_io) or [Medium](https://medium.com/metamask) pages.
 
-To learn how to develop MetaMask-compatible applications, visit our [Developer Docs](https://metamask.github.io/metamask-docs/).
+To learn how to develop WutangMask-compatible applications, visit our [Developer Docs](https://metamask.github.io/metamask-docs/).
 
-To learn how to contribute to the MetaMask project itself, visit our [Internal Docs](https://github.com/MetaMask/metamask-extension/tree/develop/docs).
+To learn how to contribute to the WutangMask project itself, visit our [Internal Docs](https://github.com/WutangMask/metamask-extension/tree/develop/docs).
 
 ## Building locally
 
@@ -62,7 +62,7 @@ yarn dist
 
 - [How to add custom build to Chrome](./docs/add-to-chrome.md)
 - [How to add custom build to Firefox](./docs/add-to-firefox.md)
-- [How to add a new translation to MetaMask](./docs/translating-guide.md)
+- [How to add a new translation to WutangMask](./docs/translating-guide.md)
 - [Publishing Guide](./docs/publishing.md)
 - [How to use the TREZOR emulator](./docs/trezor-emulator.md)
 - [How to generate a visualization of this repository's development](./development/gource-viz.sh)

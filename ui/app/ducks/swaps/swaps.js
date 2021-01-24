@@ -393,13 +393,13 @@ export const fetchQuotesAndSetQuoteState = (
     const selectedAccount = getSelectedAccount(state)
     const balanceError = getBalanceError(state)
     const fetchParamsFromToken =
-      fetchParams?.metaData?.sourceTokenInfo?.symbol === 'ETH'
+      fetchParams?.metaData?.sourceTokenInfo?.symbol === 'AVAX'
         ? {
             ...ETH_SWAPS_TOKEN_OBJECT,
             string: getValueFromWeiHex({
               value: selectedAccount.balance,
               numberOfDecimals: 4,
-              toDenomination: 'ETH',
+              toDenomination: 'AVAX',
             }),
             balance: hexToDecimal(selectedAccount.balance),
           }
@@ -427,7 +427,7 @@ export const fetchQuotesAndSetQuoteState = (
     const contractExchangeRates = getTokenExchangeRates(state)
 
     let destinationTokenAddedForSwap = false
-    if (toTokenSymbol !== 'ETH' && !contractExchangeRates[toTokenAddress]) {
+    if (toTokenSymbol !== 'AVAX' && !contractExchangeRates[toTokenAddress]) {
       destinationTokenAddedForSwap = true
       await dispatch(
         addToken(
@@ -440,7 +440,7 @@ export const fetchQuotesAndSetQuoteState = (
       )
     }
     if (
-      fromTokenSymbol !== 'ETH' &&
+      fromTokenSymbol !== 'AVAX' &&
       !contractExchangeRates[fromTokenAddress] &&
       fromTokenBalance &&
       new BigNumber(fromTokenBalance, 16).gt(0)

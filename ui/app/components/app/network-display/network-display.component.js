@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import {
   MAINNET_NETWORK_ID,
-  ROPSTEN_NETWORK_ID,
+  AVALANCHE_NETWORK_ID,
   RINKEBY_NETWORK_ID,
   KOVAN_NETWORK_ID,
   GOERLI_NETWORK_ID,
@@ -11,7 +11,7 @@ import {
 
 const networkIdToTypeMap = {
   [MAINNET_NETWORK_ID]: 'mainnet',
-  [ROPSTEN_NETWORK_ID]: 'ropsten',
+  [AVALANCHE_NETWORK_ID]: 'avalanche',
   [RINKEBY_NETWORK_ID]: 'rinkeby',
   [GOERLI_NETWORK_ID]: 'goerli',
   [KOVAN_NETWORK_ID]: 'kovan',

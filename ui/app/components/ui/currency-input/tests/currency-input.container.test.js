@@ -23,7 +23,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AVAX',
             preferences: {
               showFiatInTestnets: false,
             },
@@ -38,7 +38,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -51,7 +51,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AVAX',
             preferences: {
               showFiatInTestnets: false,
             },
@@ -66,7 +66,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           hideFiat: true,
           maxModeOn: false,
         },
@@ -79,7 +79,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AVAX',
             preferences: {
               showFiatInTestnets: true,
             },
@@ -94,7 +94,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -107,7 +107,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AVAX',
             preferences: {
               showFiatInTestnets: true,
             },
@@ -122,7 +122,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -145,7 +145,7 @@ describe('CurrencyInput container', function () {
           stateProps: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AVAX',
           },
           dispatchProps: {},
           ownProps: {},
@@ -153,9 +153,9 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           // useFiat: true,
-          nativeSuffix: 'ETH',
+          nativeSuffix: 'AVAX',
           fiatSuffix: 'USD',
         },
       },
@@ -166,7 +166,7 @@ describe('CurrencyInput container', function () {
           stateProps: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'AVAX',
           },
           dispatchProps: {},
           ownProps: { useFiat: true },
@@ -174,9 +174,9 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           useFiat: true,
-          nativeSuffix: 'ETH',
+          nativeSuffix: 'AVAX',
           fiatSuffix: 'USD',
         },
       },

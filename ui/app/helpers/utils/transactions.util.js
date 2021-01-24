@@ -24,7 +24,7 @@ const hstInterface = new ethers.utils.Interface(abi)
  * @property {string} name - The name of the function.
  * @property {string} signature - The function signature.
  * @property {string} sighash - The function signature hash.
- * @property {EthersBigNumber} value - The ETH value associated with the call.
+ * @property {EthersBigNumber} value - The AVAX value associated with the call.
  * @property {FunctionFragment} functionFragment - The Ethers function fragment
  * representation of the function.
  */

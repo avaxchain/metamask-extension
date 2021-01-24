@@ -76,7 +76,7 @@ export default function BuildQuote({
   const toToken = useSelector(getToToken) || destinationTokenInfo
   const swapsEthToken = useSwapsEthToken()
   const fetchParamsFromToken =
-    sourceTokenInfo?.symbol === 'ETH' ? swapsEthToken : sourceTokenInfo
+    sourceTokenInfo?.symbol === 'AVAX' ? swapsEthToken : sourceTokenInfo
 
   const { loading, tokensWithBalances } = useTokenTracker(tokens)
 
@@ -84,7 +84,7 @@ export default function BuildQuote({
   // but is not in tokensWithBalances or tokens, then we want to add it to the usersTokens array so that
   // the balance of the token can appear in the from token selection dropdown
   const fromTokenArray =
-    fromToken?.symbol !== 'ETH' && fromToken?.balance ? [fromToken] : []
+    fromToken?.symbol !== 'AVAX' && fromToken?.balance ? [fromToken] : []
   const usersTokens = uniqBy(
     [...tokensWithBalances, ...tokens, ...fromTokenArray],
     'address',
@@ -97,7 +97,7 @@ export default function BuildQuote({
         ? [fromToken || fetchParamsFromToken]
         : [],
     usersTokens: memoizedUsersTokens,
-    onlyEth: (fromToken || fetchParamsFromToken)?.symbol === 'ETH',
+    onlyEth: (fromToken || fetchParamsFromToken)?.symbol === 'AVAX',
     singleToken: true,
   })[0]
 
@@ -138,7 +138,7 @@ export default function BuildQuote({
     true,
   )
   const swapFromFiatValue =
-    fromTokenSymbol === 'ETH' ? swapFromEthFiatValue : swapFromTokenFiatValue
+    fromTokenSymbol === 'AVAX' ? swapFromEthFiatValue : swapFromTokenFiatValue
 
   const onFromSelect = (token) => {
     if (
@@ -249,7 +249,7 @@ export default function BuildQuote({
           string: getValueFromWeiHex({
             value: ethBalance,
             numberOfDecimals: 4,
-            toDenomination: 'ETH',
+            toDenomination: 'AVAX',
           }),
         }),
       )
@@ -271,7 +271,7 @@ export default function BuildQuote({
       <div className="build-quote__content">
         <div className="build-quote__dropdown-input-pair-header">
           <div className="build-quote__input-label">{t('swapSwapFrom')}</div>
-          {fromTokenSymbol !== 'ETH' && (
+          {fromTokenSymbol !== 'AVAX' && (
             <div
               className="build-quote__max-button"
               onClick={() =>

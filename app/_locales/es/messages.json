@@ -30,7 +30,7 @@
     "message": "registro de actividades"
   },
   "addAcquiredTokens": {
-    "message": "Agregar los tokens que has adquirido usando MetaMask"
+    "message": "Agregar los tokens que has adquirido usando WutangMask"
   },
   "addAlias": {
     "message": "Añadir alias"
@@ -70,7 +70,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -98,7 +98,7 @@
     "message": "Temporizador Auto-Cierre (minutos)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Establece el tiempo de inactividad en minutos antes de que MetaMask cierre la sesión automáticamente."
+    "message": "Establece el tiempo de inactividad en minutos antes de que WutangMask cierre la sesión automáticamente."
   },
   "average": {
     "message": "Promedio"
@@ -125,7 +125,7 @@
     "message": "Tu navegador no está admitido..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fue diseñado y construido en California"
+    "message": "WutangMask fue diseñado y construido en California"
   },
   "cancel": {
     "message": "Cancelar"
@@ -140,7 +140,7 @@
     "message": "ID Cadena"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Hay que usar MetaMask en Google Chrome para poder conectarse con tu Monedero Físico."
+    "message": "Hay que usar WutangMask en Google Chrome para poder conectarse con tu Monedero Físico."
   },
   "clickToRevealSeed": {
     "message": "Haga clic aquí para revelar palabras secretas"
@@ -181,8 +181,8 @@
   "connectingToRinkeby": {
     "message": "Conectando a la red de test Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Conectando a la red de test Ropsten"
+  "connectingToAvalanche": {
+    "message": "Conectando a la red de test Avalanche"
   },
   "continueToWyre": {
     "message": "Continuar a Wyre"
@@ -290,7 +290,7 @@
     "message": "Editar Contacto"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask no puede recuperar tu seedphrase. Saber más."
+    "message": "WutangMask no puede recuperar tu seedphrase. Saber más."
   },
   "endOfFlowMessage9": {
     "message": "Saber más."
@@ -371,7 +371,7 @@
     "message": "Conectarle un monedero físico"
   },
   "hardwareWalletsMsg": {
-    "message": "Seleccionar un monedero físico que quieres usar con MetaMask"
+    "message": "Seleccionar un monedero físico que quieres usar con WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "¿Tienes problemas para hacer la conexión?"
@@ -400,7 +400,7 @@
     "message": "Importar cuenta"
   },
   "importAccountMsg": {
-    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu MetaMask. Aprende más acerca de importar cuentas."
+    "message": "Las cuentas importadas no serán asociadas con tu cuenta original creada con tu WutangMask. Aprende más acerca de importar cuentas."
   },
   "importUsingSeed": {
     "message": "Importar usando la frase semilla de la cuenta"
@@ -434,7 +434,7 @@
     "message": "Dirección del destinatario invalida"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No es una red ETH, convertirlo a minúscula"
+    "message": "No es una red AVAX, convertirlo a minúscula"
   },
   "invalidBlockExplorerURL": {
     "message": "Invalida URL del Block Explorer"
@@ -483,10 +483,10 @@
     "message": "Mensaje"
   },
   "metamaskDescription": {
-    "message": "MetaMask es una identidad segura en Ethereum"
+    "message": "WutangMask es una identidad segura en Ethereum"
   },
   "metamaskVersion": {
-    "message": "Versión de MetaMask"
+    "message": "Versión de WutangMask"
   },
   "mustSelectOne": {
     "message": "Debe seleccionar al menos un (1) token"
@@ -495,14 +495,14 @@
     "message": "Mis cuentas"
   },
   "needEtherInWallet": {
-    "message": "Para interactuar con una aplicación descentralizada usando MetaMask, necesitas tener Ether en tu billetera"
+    "message": "Para interactuar con una aplicación descentralizada usando WutangMask, necesitas tener Ether en tu billetera"
   },
   "needImportFile": {
     "message": "Debes seleccionar un archivo para importar",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "No se pueden mandar cantidades negativas de ETH"
+    "message": "No se pueden mandar cantidades negativas de AVAX"
   },
   "networks": {
     "message": "Redes"
@@ -591,7 +591,7 @@
     "message": "Moneda principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. ETH). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
+    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. AVAX). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
   },
   "privacyMsg": {
     "message": "Política de privacidad"
@@ -687,8 +687,8 @@
   "rinkeby": {
     "message": "Red privada Rinkeby"
   },
-  "ropsten": {
-    "message": "Red privada Ropsten"
+  "avalanche": {
+    "message": "Red privada Avalanche"
   },
   "save": {
     "message": "Guardar"
@@ -727,7 +727,7 @@
     "message": "Seleccionar una Cuenta"
   },
   "selectAnAccountHelp": {
-    "message": "Seleccionar la cuenta que quiere ver en MetaMask"
+    "message": "Seleccionar la cuenta que quiere ver en WutangMask"
   },
   "selectCurrency": {
     "message": "Seleccionar moneda"
@@ -968,7 +968,7 @@
     "message": "Semilla de la billetera"
   },
   "welcome": {
-    "message": "Bienvenido a MetaMask"
+    "message": "Bienvenido a WutangMask"
   },
   "welcomeBack": {
     "message": "¡Bienvenido de nuevo!"

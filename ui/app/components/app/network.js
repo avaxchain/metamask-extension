@@ -14,8 +14,8 @@ function NetworkIndicator({
     <div
       className={classnames('network-component pointer', {
         'network-component--disabled': disabled,
+        'avalanche-network': providerName === 'avalanche',
         'ethereum-network': providerName === 'mainnet',
-        'ropsten-test-network': providerName === 'ropsten',
         'kovan-test-network': providerName === 'kovan',
         'rinkeby-test-network': providerName === 'rinkeby',
         'goerli-test-network': providerName === 'goerli',
@@ -89,11 +89,11 @@ export default class Network extends Component {
           </NetworkIndicator>
         )
 
-      case 'ropsten':
+      case 'avalanche':
         return (
           <NetworkIndicator
             disabled={disabled}
-            hoverText={t('ropsten')}
+            hoverText={t('avalanche')}
             onClick={onClick}
             providerName={providerName}
           >
@@ -102,7 +102,7 @@ export default class Network extends Component {
               nonSelectBackgroundColor="#ec2c50"
               loading={networkNumber === 'loading'}
             />
-            <div className="network-name">{t('ropsten')}</div>
+            <div className="network-name">{t('avalanche')}</div>
           </NetworkIndicator>
         )
 

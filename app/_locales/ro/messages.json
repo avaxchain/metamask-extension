@@ -30,7 +30,7 @@
     "message": "jurnal activitate"
   },
   "addAcquiredTokens": {
-    "message": "Adăugați token-urile pe care le-ați achiziționat folosind MetaMask"
+    "message": "Adăugați token-urile pe care le-ați achiziționat folosind WutangMask"
   },
   "addAlias": {
     "message": "Adăugare alias"
@@ -73,7 +73,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -101,7 +101,7 @@
     "message": "Temporizator deconectare automată (minute)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Setați perioada de inactivitate în minute înainte ca MetaMask să se deconecteze automat"
+    "message": "Setați perioada de inactivitate în minute înainte ca WutangMask să se deconecteze automat"
   },
   "average": {
     "message": "Mediu"
@@ -113,7 +113,7 @@
     "message": "Înapoi la toate"
   },
   "backupApprovalInfo": {
-    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați MetaMask sau vreți să accesați portofelul de pe alt dispozitiv."
+    "message": "Acest cod secret este necesar pentru recuperarea portofelului în cazul în care pierdeți dispozitivul, uitați parola, trebuie să reinstalați WutangMask sau vreți să accesați portofelul de pe alt dispozitiv."
   },
   "backupApprovalNotice": {
     "message": "Creați o copie de rezervă a codului de recuperare secret pentru a vă menține portofelul și fondurile în siguranță."
@@ -144,13 +144,13 @@
     "message": "Browserul dvs. nu este compatibil..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask este concepută și creată în California."
+    "message": "WutangMask este concepută și creată în California."
   },
   "buyWithWyre": {
-    "message": "Cumpărați ETH cu Wyre"
+    "message": "Cumpărați AVAX cu Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vă permite să folosiți un card de credit pentru a depune ETH direct în contul dvs. MetaMask."
+    "message": "Wyre vă permite să folosiți un card de credit pentru a depune AVAX direct în contul dvs. WutangMask."
   },
   "bytes": {
     "message": "Octeți"
@@ -168,7 +168,7 @@
     "message": "ID lanț"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Trebuie să folosiți MetaMask în Google Chrome pentru a vă conecta la portofelul hardware."
+    "message": "Trebuie să folosiți WutangMask în Google Chrome pentru a vă conecta la portofelul hardware."
   },
   "clickToRevealSeed": {
     "message": "Faceți clic aici pentru a arăta cuvintele secrete"
@@ -212,8 +212,8 @@
   "connectingToRinkeby": {
     "message": "Se conectează la Rețeaua de test Rinkeby"
   },
-  "connectingToRopsten": {
-    "message": "Se conectează la rețeaua de test Ropsten"
+  "connectingToAvalanche": {
+    "message": "Se conectează la rețeaua de test Avalanche"
   },
   "continueToWyre": {
     "message": "Continuați la Wyre"
@@ -345,7 +345,7 @@
     "message": "Nu comunicați niciodată fraza cuiva."
   },
   "endOfFlowMessage5": {
-    "message": "Aveți grijă la phishing! MetaMask nu vă va cere niciodată în mod spontan expresia sursă."
+    "message": "Aveți grijă la phishing! WutangMask nu vă va cere niciodată în mod spontan expresia sursă."
   },
   "endOfFlowMessage6": {
     "message": "Dacă trebuie să vă salvați din nou fraza seed, puteți să o găsiți în Setări -> Securitate."
@@ -354,7 +354,7 @@
     "message": "Dacă aveți întrebări sau vedeți ceva suspect, trimiteți un e-mail la support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask nu vă poate recupera expresia sursă. Aflați mai multe."
+    "message": "WutangMask nu vă poate recupera expresia sursă. Aflați mai multe."
   },
   "endOfFlowMessage9": {
     "message": "Aflați mai multe."
@@ -458,7 +458,7 @@
     "message": "Conectați un portofel hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu MetaMask"
+    "message": "Selectați un portofel hardware pe care doriți să îl folosiți cu WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "Aveți probleme cu conectarea?"
@@ -487,7 +487,7 @@
     "message": "Importare cont"
   },
   "importAccountMsg": {
-    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră MetaMask creat inițial. Aflați mai multe despre conturile importate"
+    "message": "Conturile importate nu vor fi asociate cu seedphrase-ul contului dumneavoastră WutangMask creat inițial. Aflați mai multe despre conturile importate"
   },
   "importAccountSeedPhrase": {
     "message": "Importați un cont cu fraza seed"
@@ -527,7 +527,7 @@
     "message": "Adresa destinatarului nu este validă"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nu este rețea ETH, setați pe minuscule"
+    "message": "Nu este rețea AVAX, setați pe minuscule"
   },
   "invalidBlockExplorerURL": {
     "message": "URL Block Explorer nevalid"
@@ -594,7 +594,7 @@
     "message": "Vă conectăm la Ethereum și la Internetul descentralizat."
   },
   "metamaskVersion": {
-    "message": "Versiune MetaMask"
+    "message": "Versiune WutangMask"
   },
   "mobileSyncText": {
     "message": "Vă rugăm introduceți parola pentru a vă confirma identitatea!"
@@ -609,17 +609,17 @@
     "message": "Conturi My Wallet"
   },
   "myWalletAccountsDescription": {
-    "message": "Toate conturile dvs. create pe MetaMask vor fi adăugate automat la această secțiune."
+    "message": "Toate conturile dvs. create pe WutangMask vor fi adăugate automat la această secțiune."
   },
   "needEtherInWallet": {
-    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul MetaMask, trebuie să aveți Ether în portofel."
+    "message": "Pentru a interacționa cu aplicațiile descentralizate prin intermediul WutangMask, trebuie să aveți Ether în portofel."
   },
   "needImportFile": {
     "message": "Trebuie să selectați un fișier pentru importare.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nu se pot trimite sume negative de ETH."
+    "message": "Nu se pot trimite sume negative de AVAX."
   },
   "networkName": {
     "message": "Numele rețelei"
@@ -656,7 +656,7 @@
     "message": "Parola Nouă (minimum 8 caractere)"
   },
   "newToMetaMask": {
-    "message": "Nefamiliarizat cu MetaMask?"
+    "message": "Nefamiliarizat cu WutangMask?"
   },
   "newTotal": {
     "message": "Total nou"
@@ -719,7 +719,7 @@
     "message": "Participați la MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim MetaMask."
+    "message": "Alăturați-vă MetaMetrics pentru a ne ajuta să îmbunătățim WutangMask."
   },
   "password": {
     "message": "Parolă"
@@ -747,7 +747,7 @@
     "message": "Moneda principală"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. ETH). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
+    "message": "Selectați nativ pentru a prioritiza valorile afișate în moneda nativă a lanțului (ex. AVAX). Selectați Fiat pentru a prioritiza valorile afișate în moneda selectată fiat."
   },
   "privacyMsg": {
     "message": "Politica de Confidențialitate"
@@ -766,7 +766,7 @@
     "message": "Protejați-vă cheile!"
   },
   "protectYourKeysMessage1": {
-    "message": "Aveți grijă cu expresia dvs. sursă – au existat raportări despre site-uri web care încearcă să imite MetaMask. MetaMask nu vă va cere niciodată expresia sursă!"
+    "message": "Aveți grijă cu expresia dvs. sursă – au existat raportări despre site-uri web care încearcă să imite WutangMask. WutangMask nu vă va cere niciodată expresia sursă!"
   },
   "protectYourKeysMessage2": {
     "message": "Aveți grijă de fraza dvs. Dacă vedeți ceva care este în neregulă sau aveți dubii cu privire la un site, trimiteți un mesaj la support@metamask.io"
@@ -858,8 +858,8 @@
   "rinkeby": {
     "message": "Rețea test Rinkeby"
   },
-  "ropsten": {
-    "message": "Rețea de testare Ropsten"
+  "avalanche": {
+    "message": "Rețea de testare Avalanche"
   },
   "rpcUrl": {
     "message": "URL RPC nou"
@@ -916,7 +916,7 @@
     "message": "Selectați un cont"
   },
   "selectAnAccountHelp": {
-    "message": "Selectați contul de vizualizat în MetaMask"
+    "message": "Selectați contul de vizualizat în WutangMask"
   },
   "selectCurrency": {
     "message": "Selectați moneda"
@@ -943,7 +943,7 @@
     "message": "Suma trimisă"
   },
   "sendETH": {
-    "message": "Trimitere ETH"
+    "message": "Trimitere AVAX"
   },
   "sendTokens": {
     "message": "Trimiteți indicative"
@@ -1060,16 +1060,16 @@
     "message": "Asigurați-vă că nimeni altcineva nu poate vedea ecranul dvs. când scanați acest cod"
   },
   "syncWithMobileComplete": {
-    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă MetaMask!"
+    "message": "Datele dvs. au fost sincronizate cu succes. Bucurați-vă de aplicația mobilă WutangMask!"
   },
   "syncWithMobileDesc": {
-    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă MetaMask, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
+    "message": "Vă puteți sincroniza conturile și informațiile cu dispozitivul dvs. mobil. Deschideți aplicația mobilă WutangMask, mergeți la „Setări” și atingeți „Sincronizare de la extensia de browser”"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Dacă deschideți aplicația pentru mobil MetaMask pentru prima oară, urmați pașii afișați pe telefonul dvs."
+    "message": "Dacă deschideți aplicația pentru mobil WutangMask pentru prima oară, urmați pașii afișați pe telefonul dvs."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Scanați acest cod folosind aplicația dvs. mobilă MetaMask"
+    "message": "Scanați acest cod folosind aplicația dvs. mobilă WutangMask"
   },
   "syncWithMobileTitle": {
     "message": "Sincronizați cu mobilul"
@@ -1154,7 +1154,7 @@
     "message": "Încearcă din nou"
   },
   "typePassword": {
-    "message": "Scrieți parola dvs. pentru MetaMask"
+    "message": "Scrieți parola dvs. pentru WutangMask"
   },
   "unapproved": {
     "message": "Neaprobat"
@@ -1217,7 +1217,7 @@
     "message": "Sursă portofel"
   },
   "welcome": {
-    "message": "Bun venit la MetaMask"
+    "message": "Bun venit la WutangMask"
   },
   "welcomeBack": {
     "message": "Bine ai revenit!"

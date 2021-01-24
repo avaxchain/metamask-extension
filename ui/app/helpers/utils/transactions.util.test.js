@@ -70,8 +70,8 @@ describe('Transactions utils', function () {
           hash: '0xabcd',
         },
         {
-          expected: 'https://ropsten.etherscan.io/tx/0xdef0',
-          networkId: '3',
+          expected: 'https://avalanche.etherscan.io/tx/0xdef0',
+          networkId: '1',
           hash: '0xdef0',
           rpcPrefs: {},
         },

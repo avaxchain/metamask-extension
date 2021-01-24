@@ -9,7 +9,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('WutangMask', function () {
   let driver
   let tokenAddress
 
@@ -267,12 +267,12 @@ describe('MetaMask', function () {
       const balance = await driver.findElement(
         By.css('[data-testid="wallet-balance"] .list-item__heading'),
       )
-      await driver.wait(until.elementTextMatches(balance, /100\s*ETH/u))
+      await driver.wait(until.elementTextMatches(balance, /100\s*AVAX/u))
       await driver.delay(regularDelayMs)
     })
   })
 
-  describe('Send ETH from inside MetaMask using default gas', function () {
+  describe('Send AVAX from inside WutangMask using default gas', function () {
     it('starts a send transaction', async function () {
       await driver.clickElement(By.css('[data-testid="eth-overview-send"]'))
       await driver.delay(regularDelayMs)
@@ -350,11 +350,11 @@ describe('MetaMask', function () {
       const txValues = await driver.findElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AVAX/u), 10000)
     })
   })
 
-  describe('Send ETH from inside MetaMask using fast gas option', function () {
+  describe('Send AVAX from inside WutangMask using fast gas option', function () {
     it('starts a send transaction', async function () {
       await driver.clickElement(By.css('[data-testid="eth-overview-send"]'))
       await driver.delay(regularDelayMs)
@@ -401,11 +401,11 @@ describe('MetaMask', function () {
       const txValues = await driver.findElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AVAX/u), 10000)
     })
   })
 
-  describe('Send ETH from inside MetaMask using advanced gas modal', function () {
+  describe('Send AVAX from inside WutangMask using advanced gas modal', function () {
     it('starts a send transaction', async function () {
       await driver.clickElement(By.css('[data-testid="eth-overview-send"]'))
       await driver.delay(regularDelayMs)
@@ -461,11 +461,11 @@ describe('MetaMask', function () {
       const txValues = await driver.findElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValues, /-1\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-1\s*AVAX/u), 10000)
     })
   })
 
-  describe('Send ETH from dapp using advanced gas controls', function () {
+  describe('Send AVAX from dapp using advanced gas controls', function () {
     let windowHandles
     let extension
     let popup
@@ -552,7 +552,7 @@ describe('MetaMask', function () {
 
       windowHandles = await driver.getAllWindowHandles()
       await driver.switchToWindowWithTitle(
-        'MetaMask Notification',
+        'WutangMask Notification',
         windowHandles,
       )
       await driver.delay(regularDelayMs)
@@ -602,7 +602,7 @@ describe('MetaMask', function () {
       const txValue = await driver.findClickableElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValue, /-3\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValue, /-3\s*AVAX/u), 10000)
     })
 
     it('the transaction has the expected gas price', async function () {
@@ -890,7 +890,7 @@ describe('MetaMask', function () {
       await driver.delay(regularDelayMs)
     })
 
-    it('calls and confirms a contract method where ETH is sent', async function () {
+    it('calls and confirms a contract method where AVAX is sent', async function () {
       await driver.switchToWindow(dapp)
       await driver.delay(regularDelayMs)
 
@@ -917,7 +917,7 @@ describe('MetaMask', function () {
         By.css('.transaction-list-item__primary-currency'),
       )
       await driver.wait(
-        until.elementTextMatches(txListValue, /-4\s*ETH/u),
+        until.elementTextMatches(txListValue, /-4\s*AVAX/u),
         10000,
       )
       await txListValue.click()
@@ -974,12 +974,12 @@ describe('MetaMask', function () {
         By.css('.transaction-list-item__primary-currency'),
       )
       await driver.wait(
-        until.elementTextMatches(txValues[0], /-4\s*ETH/u),
+        until.elementTextMatches(txValues[0], /-4\s*AVAX/u),
         10000,
       )
     })
 
-    it('calls and confirms a contract method where ETH is received', async function () {
+    it('calls and confirms a contract method where AVAX is received', async function () {
       await driver.switchToWindow(dapp)
       await driver.delay(regularDelayMs)
 
@@ -1013,23 +1013,23 @@ describe('MetaMask', function () {
       const txValues = await driver.findElement(
         By.css('.transaction-list-item__primary-currency'),
       )
-      await driver.wait(until.elementTextMatches(txValues, /-0\s*ETH/u), 10000)
+      await driver.wait(until.elementTextMatches(txValues, /-0\s*AVAX/u), 10000)
 
       await driver.closeAllWindowHandlesExcept([extension, dapp])
       await driver.switchToWindow(extension)
     })
 
-    it('renders the correct ETH balance', async function () {
+    it('renders the correct AVAX balance', async function () {
       const balance = await driver.findElement(
         By.css('[data-testid="eth-overview__primary-currency"]'),
       )
       await driver.delay(regularDelayMs)
       await driver.wait(
-        until.elementTextMatches(balance, /^87.*\s*ETH.*$/u),
+        until.elementTextMatches(balance, /^87.*\s*AVAX.*$/u),
         10000,
       )
       const tokenAmount = await balance.getText()
-      assert.ok(/^87.*\s*ETH.*$/u.test(tokenAmount))
+      assert.ok(/^87.*\s*AVAX.*$/u.test(tokenAmount))
       await driver.delay(regularDelayMs)
     })
   })
@@ -1133,7 +1133,7 @@ describe('MetaMask', function () {
     })
   })
 
-  describe('Send token from inside MetaMask', function () {
+  describe('Send token from inside WutangMask', function () {
     let gasModal
     it('starts to send a transaction', async function () {
       await driver.clickElement(By.css('[data-testid="eth-overview-send"]'))
@@ -1464,7 +1464,7 @@ describe('MetaMask', function () {
           '.confirm-approve-content__transaction-details-content__secondary-fee',
         ),
       )
-      assert.equal(await gasFeeInEth.getText(), '0.0006 ETH')
+      assert.equal(await gasFeeInEth.getText(), '0.0006 AVAX')
     })
 
     it('edits the permission', async function () {

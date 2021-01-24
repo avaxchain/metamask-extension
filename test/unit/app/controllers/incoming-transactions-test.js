@@ -11,9 +11,9 @@ import {
   MAINNET,
   MAINNET_CHAIN_ID,
   RINKEBY,
-  ROPSTEN,
-  ROPSTEN_CHAIN_ID,
-  ROPSTEN_NETWORK_ID,
+  AVALANCHE,
+  AVALANCHE_CHAIN_ID,
+  AVALANCHE_NETWORK_ID,
 } from '../../../../app/scripts/controllers/network/enums'
 import {
   TRANSACTION_CATEGORIES,
@@ -39,7 +39,7 @@ function getEmptyInitState() {
       [KOVAN]: null,
       [MAINNET]: null,
       [RINKEBY]: null,
-      [ROPSTEN]: null,
+      [AVALANCHE]: null,
     },
   }
 }
@@ -54,7 +54,7 @@ function getNonEmptyInitState() {
       [KOVAN]: 2,
       [MAINNET]: 3,
       [RINKEBY]: 5,
-      [ROPSTEN]: 4,
+      [AVALANCHE]: 4,
     },
   }
 }
@@ -106,7 +106,7 @@ function getMockBlockTracker() {
  * @property {string} nonce - The transaction nonce, in decimal
  * @property {string} timeStamp - The timestamp for the transaction, in seconds
  * @property {string} to - The hex-prefixed address of the recipient
- * @property {string} value - The amount of ETH sent in this transaction, in decimal WEI
+ * @property {string} value - The amount of AVAX sent in this transaction, in decimal WEI
  */
 
 /**
@@ -221,14 +221,14 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
       )
       const startBlock = getNonEmptyInitState()
-        .incomingTxLastFetchedBlocksByNetwork[ROPSTEN]
-      nock('https://api-ropsten.etherscan.io')
+        .incomingTxLastFetchedBlocksByNetwork[AVALANCHE]
+      nock('https://api-avalanche.etherscan.io')
         .get(
           `/api?module=account&action=txlist&address=${MOCK_SELECTED_ADDRESS}&tag=latest&page=1&startBlock=${startBlock}`,
         )
@@ -285,7 +285,7 @@ describe('IncomingTransactionsController', function () {
           },
           incomingTxLastFetchedBlocksByNetwork: {
             ...getNonEmptyInitState().incomingTxLastFetchedBlocksByNetwork,
-            [ROPSTEN]: 11,
+            [AVALANCHE]: 11,
           },
         },
         'State should have been updated after first block was received',
@@ -307,7 +307,7 @@ describe('IncomingTransactionsController', function () {
         KOVAN,
         MAINNET,
         RINKEBY,
-        ROPSTEN,
+        AVALANCHE,
         'undefined',
       ]) {
         nock(
@@ -374,7 +374,7 @@ describe('IncomingTransactionsController', function () {
         KOVAN,
         MAINNET,
         RINKEBY,
-        ROPSTEN,
+        AVALANCHE,
         'undefined',
       ]) {
         nock(
@@ -428,7 +428,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -439,7 +439,7 @@ describe('IncomingTransactionsController', function () {
         KOVAN,
         MAINNET,
         RINKEBY,
-        ROPSTEN,
+        AVALANCHE,
         'undefined',
       ]) {
         nock(
@@ -491,7 +491,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -502,7 +502,7 @@ describe('IncomingTransactionsController', function () {
         KOVAN,
         MAINNET,
         RINKEBY,
-        ROPSTEN,
+        AVALANCHE,
         'undefined',
       ]) {
         nock(
@@ -556,15 +556,15 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
       )
       const NEW_MOCK_SELECTED_ADDRESS = `${MOCK_SELECTED_ADDRESS}9`
       const startBlock = getNonEmptyInitState()
-        .incomingTxLastFetchedBlocksByNetwork[ROPSTEN]
-      nock('https://api-ropsten.etherscan.io')
+        .incomingTxLastFetchedBlocksByNetwork[AVALANCHE]
+      nock('https://api-avalanche.etherscan.io')
         .get(
           `/api?module=account&action=txlist&address=${NEW_MOCK_SELECTED_ADDRESS}&tag=latest&page=1&startBlock=${startBlock}`,
         )
@@ -628,7 +628,7 @@ describe('IncomingTransactionsController', function () {
           },
           incomingTxLastFetchedBlocksByNetwork: {
             ...getNonEmptyInitState().incomingTxLastFetchedBlocksByNetwork,
-            [ROPSTEN]: 11,
+            [AVALANCHE]: 11,
           },
         },
         'State should have been updated after first block was received',
@@ -651,7 +651,7 @@ describe('IncomingTransactionsController', function () {
         KOVAN,
         MAINNET,
         RINKEBY,
-        ROPSTEN,
+        AVALANCHE,
         'undefined',
       ]) {
         nock(
@@ -712,14 +712,14 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
       )
       const startBlock = getNonEmptyInitState()
-        .incomingTxLastFetchedBlocksByNetwork[ROPSTEN]
-      nock('https://api-ropsten.etherscan.io')
+        .incomingTxLastFetchedBlocksByNetwork[AVALANCHE]
+      nock('https://api-avalanche.etherscan.io')
         .get(
           `/api?module=account&action=txlist&address=${MOCK_SELECTED_ADDRESS}&tag=latest&page=1&startBlock=${startBlock}`,
         )
@@ -743,9 +743,9 @@ describe('IncomingTransactionsController', function () {
         0,
       ).args[1]
       incomingTransactionsController.networkController = getMockNetworkController(
-        ROPSTEN_CHAIN_ID,
+        AVALANCHE_CHAIN_ID,
       )
-      await subscription(ROPSTEN)
+      await subscription(AVALANCHE)
       await updateStateCalled()
 
       const actualState = incomingTransactionsController.store.getState()
@@ -782,7 +782,7 @@ describe('IncomingTransactionsController', function () {
           },
           incomingTxLastFetchedBlocksByNetwork: {
             ...getNonEmptyInitState().incomingTxLastFetchedBlocksByNetwork,
-            [ROPSTEN]: 11,
+            [AVALANCHE]: 11,
           },
         },
         'State should have been updated after first block was received',
@@ -790,7 +790,7 @@ describe('IncomingTransactionsController', function () {
     })
 
     it('should not update when switching to an unsupported network', async function () {
-      const networkController = getMockNetworkController(ROPSTEN_CHAIN_ID)
+      const networkController = getMockNetworkController(AVALANCHE_CHAIN_ID)
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
@@ -805,7 +805,7 @@ describe('IncomingTransactionsController', function () {
         KOVAN,
         MAINNET,
         RINKEBY,
-        ROPSTEN,
+        AVALANCHE,
         'undefined',
       ]) {
         nock(
@@ -866,7 +866,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getEmptyInitState(),
         },
@@ -875,7 +875,7 @@ describe('IncomingTransactionsController', function () {
 
       await incomingTransactionsController._getDataForUpdate({
         address: 'fakeAddress',
-        chainId: ROPSTEN_CHAIN_ID,
+        chainId: AVALANCHE_CHAIN_ID,
         newBlockNumberDec: 999,
       })
 
@@ -883,7 +883,7 @@ describe('IncomingTransactionsController', function () {
 
       assert.deepEqual(
         incomingTransactionsController._fetchAll.getCall(0).args,
-        ['fakeAddress', 999, ROPSTEN_CHAIN_ID],
+        ['fakeAddress', 999, AVALANCHE_CHAIN_ID],
       )
     })
 
@@ -891,7 +891,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -900,7 +900,7 @@ describe('IncomingTransactionsController', function () {
 
       await incomingTransactionsController._getDataForUpdate({
         address: 'fakeAddress',
-        chainId: ROPSTEN_CHAIN_ID,
+        chainId: AVALANCHE_CHAIN_ID,
         newBlockNumberDec: 999,
       })
 
@@ -908,7 +908,7 @@ describe('IncomingTransactionsController', function () {
 
       assert.deepEqual(
         incomingTransactionsController._fetchAll.getCall(0).args,
-        ['fakeAddress', 4, ROPSTEN_CHAIN_ID],
+        ['fakeAddress', 4, AVALANCHE_CHAIN_ID],
       )
     })
 
@@ -916,7 +916,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -928,7 +928,7 @@ describe('IncomingTransactionsController', function () {
 
       const result = await incomingTransactionsController._getDataForUpdate({
         address: 'fakeAddress',
-        chainId: ROPSTEN_CHAIN_ID,
+        chainId: AVALANCHE_CHAIN_ID,
       })
 
       assert.deepEqual(result, {
@@ -942,10 +942,10 @@ describe('IncomingTransactionsController', function () {
           [KOVAN]: 2,
           [MAINNET]: 3,
           [RINKEBY]: 5,
-          [ROPSTEN]: 4,
+          [AVALANCHE]: 4,
         },
         fetchedBlockNumber: 4,
-        chainId: ROPSTEN_CHAIN_ID,
+        chainId: AVALANCHE_CHAIN_ID,
       })
     })
   })
@@ -961,10 +961,10 @@ describe('IncomingTransactionsController', function () {
         [KOVAN]: 2,
         [MAINNET]: 3,
         [RINKEBY]: 5,
-        [ROPSTEN]: 4,
+        [AVALANCHE]: 4,
       },
       fetchedBlockNumber: 1111,
-      chainId: ROPSTEN_CHAIN_ID,
+      chainId: AVALANCHE_CHAIN_ID,
     }
 
     const MOCK_INPUT_WITH_LASTEST = {
@@ -976,7 +976,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -994,7 +994,7 @@ describe('IncomingTransactionsController', function () {
         {
           incomingTxLastFetchedBlocksByNetwork: {
             ...MOCK_INPUT_WITH_LASTEST.currentBlocksByNetwork,
-            [ROPSTEN]: 445,
+            [AVALANCHE]: 445,
           },
           incomingTransactions: {
             '0x123456': { id: 777, hash: '0x123456' },
@@ -1008,7 +1008,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1026,7 +1026,7 @@ describe('IncomingTransactionsController', function () {
         {
           incomingTxLastFetchedBlocksByNetwork: {
             ...MOCK_INPUT_WITH_LASTEST.currentBlocksByNetwork,
-            [ROPSTEN]: 1112,
+            [AVALANCHE]: 1112,
           },
           incomingTransactions: {
             '0x123456': { id: 777, hash: '0x123456' },
@@ -1058,7 +1058,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1067,13 +1067,13 @@ describe('IncomingTransactionsController', function () {
       await incomingTransactionsController._fetchTxs(
         '0xfakeaddress',
         '789',
-        ROPSTEN_CHAIN_ID,
+        AVALANCHE_CHAIN_ID,
       )
 
       assert(mockFetch.calledOnce)
       assert.equal(
         mockFetch.getCall(0).args[0],
-        `https://api-${ROPSTEN}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1&startBlock=789`,
+        `https://api-${AVALANCHE}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1&startBlock=789`,
       )
     })
 
@@ -1104,7 +1104,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1113,13 +1113,13 @@ describe('IncomingTransactionsController', function () {
       await incomingTransactionsController._fetchTxs(
         '0xfakeaddress',
         null,
-        ROPSTEN_CHAIN_ID,
+        AVALANCHE_CHAIN_ID,
       )
 
       assert(mockFetch.calledOnce)
       assert.equal(
         mockFetch.getCall(0).args[0],
-        `https://api-${ROPSTEN}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1`,
+        `https://api-${AVALANCHE}.etherscan.io/api?module=account&action=txlist&address=0xfakeaddress&tag=latest&page=1`,
       )
     })
 
@@ -1127,7 +1127,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1136,14 +1136,14 @@ describe('IncomingTransactionsController', function () {
       const result = await incomingTransactionsController._fetchTxs(
         '0xfakeaddress',
         '789',
-        ROPSTEN_CHAIN_ID,
+        AVALANCHE_CHAIN_ID,
       )
 
       assert(mockFetch.calledOnce)
       assert.deepEqual(result, {
         someKey: 'someValue',
         address: '0xfakeaddress',
-        chainId: ROPSTEN_CHAIN_ID,
+        chainId: AVALANCHE_CHAIN_ID,
       })
     })
   })
@@ -1153,7 +1153,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1175,7 +1175,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1197,7 +1197,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1205,14 +1205,14 @@ describe('IncomingTransactionsController', function () {
 
       incomingTransactionsController._normalizeTxFromEtherscan = (tx) => ({
         ...tx,
-        currentNetworkID: ROPSTEN_NETWORK_ID,
+        currentNetworkID: AVALANCHE_NETWORK_ID,
         normalized: true,
       })
 
       const result = incomingTransactionsController._processTxFetchResponse({
         status: '1',
         address: '0xfakeaddress',
-        chainId: ROPSTEN_CHAIN_ID,
+        chainId: AVALANCHE_CHAIN_ID,
         result: [
           {
             hash: '0xabc123',
@@ -1276,7 +1276,7 @@ describe('IncomingTransactionsController', function () {
             blockNumber: 5000,
             time: 9,
             normalized: true,
-            currentNetworkID: ROPSTEN_NETWORK_ID,
+            currentNetworkID: AVALANCHE_NETWORK_ID,
           },
           {
             hash: '0xabc123',
@@ -1286,7 +1286,7 @@ describe('IncomingTransactionsController', function () {
             blockNumber: 5000,
             time: 10,
             normalized: true,
-            currentNetworkID: ROPSTEN_NETWORK_ID,
+            currentNetworkID: AVALANCHE_NETWORK_ID,
           },
           {
             hash: '0xabc12345',
@@ -1296,7 +1296,7 @@ describe('IncomingTransactionsController', function () {
             blockNumber: 5001,
             time: 11,
             normalized: true,
-            currentNetworkID: ROPSTEN_NETWORK_ID,
+            currentNetworkID: AVALANCHE_NETWORK_ID,
           },
           {
             hash: '0xabc123456',
@@ -1306,7 +1306,7 @@ describe('IncomingTransactionsController', function () {
             blockNumber: 5001,
             time: 12,
             normalized: true,
-            currentNetworkID: ROPSTEN_NETWORK_ID,
+            currentNetworkID: AVALANCHE_NETWORK_ID,
           },
         ],
       })
@@ -1318,7 +1318,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1337,13 +1337,13 @@ describe('IncomingTransactionsController', function () {
           value: '15',
           hash: '0xg',
         },
-        ROPSTEN_CHAIN_ID,
+        AVALANCHE_CHAIN_ID,
       )
 
       assert.deepEqual(result, {
         blockNumber: 333,
         id: 54321,
-        metamaskNetworkId: ROPSTEN_NETWORK_ID,
+        metamaskNetworkId: AVALANCHE_NETWORK_ID,
         status: TRANSACTION_STATUSES.FAILED,
         time: 4444000,
         txParams: {
@@ -1363,7 +1363,7 @@ describe('IncomingTransactionsController', function () {
       const incomingTransactionsController = new IncomingTransactionsController(
         {
           blockTracker: getMockBlockTracker(),
-          networkController: getMockNetworkController(ROPSTEN_CHAIN_ID),
+          networkController: getMockNetworkController(AVALANCHE_CHAIN_ID),
           preferencesController: getMockPreferencesController(),
           initState: getNonEmptyInitState(),
         },
@@ -1382,13 +1382,13 @@ describe('IncomingTransactionsController', function () {
           value: '15',
           hash: '0xg',
         },
-        ROPSTEN_CHAIN_ID,
+        AVALANCHE_CHAIN_ID,
       )
 
       assert.deepEqual(result, {
         blockNumber: 333,
         id: 54321,
-        metamaskNetworkId: ROPSTEN_NETWORK_ID,
+        metamaskNetworkId: AVALANCHE_NETWORK_ID,
         status: TRANSACTION_STATUSES.CONFIRMED,
         time: 4444000,
         txParams: {

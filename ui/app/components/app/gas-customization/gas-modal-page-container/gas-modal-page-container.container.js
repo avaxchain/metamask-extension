@@ -325,7 +325,7 @@ function sumHexWEIsToRenderableEth(hexWEIs) {
   return formatETHFee(
     getValueFromWeiHex({
       value: hexWEIsSum,
-      toCurrency: 'ETH',
+      toCurrency: 'AVAX',
       numberOfDecimals: 6,
     }),
   )

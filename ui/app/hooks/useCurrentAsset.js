@@ -7,7 +7,7 @@ import { ETH_SWAPS_TOKEN_OBJECT } from '../helpers/constants/swaps'
 /**
  * Returns a token object for the asset that is currently being viewed.
  * Will return the ETH_SWAPS_TOKEN_OBJECT when the user is viewing either
- * the primary, unfiltered, activity list or the ETH asset page.
+ * the primary, unfiltered, activity list or the AVAX asset page.
  * @returns {import('./useTokenDisplayValue').Token}
  */
 export function useCurrentAsset() {

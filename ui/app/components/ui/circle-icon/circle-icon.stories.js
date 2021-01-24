@@ -10,7 +10,7 @@ export const basicCircleIcon = () => (
     border="1px solid"
     borderColor="black"
     background="white"
-    iconSize="42px"
-    iconSource="images/eth_logo.svg"
+    iconSize="50px"
+    iconSource="images/avax_logo.svg"
   />
 )

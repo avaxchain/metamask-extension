@@ -76,7 +76,7 @@ describe('Network Dropdown', function () {
       assert.strictEqual(
         wrapper.find(NetworkDropdownIcon).at(1).prop('backgroundColor'),
         '#ff4a8d',
-      ) // Ropsten Red
+      ) // Avalanche Red
     })
 
     it('checks background color for third NetworkDropdownIcon', function () {

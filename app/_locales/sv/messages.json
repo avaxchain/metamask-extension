@@ -30,7 +30,7 @@
     "message": "aktivitetslogg"
   },
   "addAcquiredTokens": {
-    "message": "Lägg till de tokens du har skaffat med MetaMask"
+    "message": "Lägg till de tokens du har skaffat med WutangMask"
   },
   "addAlias": {
     "message": "Lägg till alias"
@@ -73,7 +73,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -101,7 +101,7 @@
     "message": "Timer för automatisk utloggning (minuter)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Ställ in efter hur lång tids inaktivitet som MetaMask automatiskt loggar ut"
+    "message": "Ställ in efter hur lång tids inaktivitet som WutangMask automatiskt loggar ut"
   },
   "average": {
     "message": "Genomsnitt"
@@ -113,7 +113,7 @@
     "message": "Tillbaka till Alla"
   },
   "backupApprovalInfo": {
-    "message": "Den hemliga koden krävs för att komma åt din plånbok ifall du tappar bort din enhet, glömmer ditt lösenord, behöver installera om MetaMask eller om du vill komma åt din plånbok på en annan enhet."
+    "message": "Den hemliga koden krävs för att komma åt din plånbok ifall du tappar bort din enhet, glömmer ditt lösenord, behöver installera om WutangMask eller om du vill komma åt din plånbok på en annan enhet."
   },
   "backupApprovalNotice": {
     "message": "Säkerhetskopiera din hemliga återställningskod för att se till att din plånbok och dina tillgångar är säkra."
@@ -144,13 +144,13 @@
     "message": "Din webbläsare stöds inte..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask är skapat och utformat i Kalifornien."
+    "message": "WutangMask är skapat och utformat i Kalifornien."
   },
   "buyWithWyre": {
-    "message": "Köp ETH med Wyre"
+    "message": "Köp AVAX med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre låter dig använda ett kreditkort för att sätta in ETH direkt på ditt MetaMask-konto."
+    "message": "Wyre låter dig använda ett kreditkort för att sätta in AVAX direkt på ditt WutangMask-konto."
   },
   "cancel": {
     "message": "Avbryt"
@@ -162,7 +162,7 @@
     "message": "Avbruten"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Du måste använda MetaMask på Google Chrome för att ansluta till din hårdvaruplånbok."
+    "message": "Du måste använda WutangMask på Google Chrome för att ansluta till din hårdvaruplånbok."
   },
   "clickToRevealSeed": {
     "message": "Klicka här för att visa hemliga ord"
@@ -206,8 +206,8 @@
   "connectingToRinkeby": {
     "message": "Ansluter till Rinkeby Test Network"
   },
-  "connectingToRopsten": {
-    "message": "Ansluter till Ropsten Test Network"
+  "connectingToAvalanche": {
+    "message": "Ansluter till Avalanche C-Chain"
   },
   "continueToWyre": {
     "message": "Fortsätt till Wyre"
@@ -339,7 +339,7 @@
     "message": "Dela aldrig frasen med någon."
   },
   "endOfFlowMessage5": {
-    "message": "Se upp för nätfiske! MetaMask kommer aldrig att oväntat fråga om din seed phrase."
+    "message": "Se upp för nätfiske! WutangMask kommer aldrig att oväntat fråga om din seed phrase."
   },
   "endOfFlowMessage6": {
     "message": "Om du behöver säkerhetskopiera din nyckelfras igen, kan du hitta den i Inställningar -> Säkerhet"
@@ -348,7 +348,7 @@
     "message": "Om du har frågor eller ser något misstänksamt, skicka ett e-postmeddelande till support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask kan inte återställa din seedphrase. Läs mer."
+    "message": "WutangMask kan inte återställa din seedphrase. Läs mer."
   },
   "endOfFlowMessage9": {
     "message": "Lär dig mer."
@@ -458,7 +458,7 @@
     "message": "Anslut en hårdvaruplånbok"
   },
   "hardwareWalletsMsg": {
-    "message": "Välj en hårdvaruplånbok som du vill använda med MetaMask"
+    "message": "Välj en hårdvaruplånbok som du vill använda med WutangMask"
   },
   "havingTroubleConnecting": {
     "message": "Har du problem att ansluta?"
@@ -487,7 +487,7 @@
     "message": "Importera konto"
   },
   "importAccountMsg": {
-    "message": "Importerade konton kommer inte att kopplas till din ursprungligen skapade seedphrase för ditt MetaMask-konto. Läs mer om importerade konton"
+    "message": "Importerade konton kommer inte att kopplas till din ursprungligen skapade seedphrase för ditt WutangMask-konto. Läs mer om importerade konton"
   },
   "importAccountSeedPhrase": {
     "message": "Importera konto med"
@@ -527,7 +527,7 @@
     "message": "Mottagarens adress är ogiltig"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ej ETH-nätverk, ange med små bokstäver"
+    "message": "Ej AVAX-nätverk, ange med små bokstäver"
   },
   "invalidBlockExplorerURL": {
     "message": "Ogiltig Block Explorer URL"
@@ -591,7 +591,7 @@
     "message": "Ansluter dig mot Ethereum och den decentraliserade webben."
   },
   "metamaskVersion": {
-    "message": "MetaMask-version"
+    "message": "WutangMask-version"
   },
   "mobileSyncText": {
     "message": "Var vänlig ange ditt lösenord för att bekräfta att det är du!"
@@ -606,17 +606,17 @@
     "message": "Mina plånbokskonton"
   },
   "myWalletAccountsDescription": {
-    "message": "Alla dina MetaMask-skapade konton läggs automatiskt till i denna avdelning."
+    "message": "Alla dina WutangMask-skapade konton läggs automatiskt till i denna avdelning."
   },
   "needEtherInWallet": {
-    "message": "För att interagera med decentraliserade applikationer med MetaMask behöver du Ether i din plånbok."
+    "message": "För att interagera med decentraliserade applikationer med WutangMask behöver du Ether i din plånbok."
   },
   "needImportFile": {
     "message": "Du måste välja en fil att importera.",
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan inte skicka negativa summor av ETH."
+    "message": "Kan inte skicka negativa summor av AVAX."
   },
   "networkName": {
     "message": "Nätverksnamn"
@@ -653,7 +653,7 @@
     "message": "Nytt lösenord (minst 8 tecken)"
   },
   "newToMetaMask": {
-    "message": "Ny på MetaMask?"
+    "message": "Ny på WutangMask?"
   },
   "newTotal": {
     "message": "Ny totalsumma"
@@ -716,7 +716,7 @@
     "message": "Delta i MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Delta i MetaMetrics för att hjälpa oss göra MetaMask bättre"
+    "message": "Delta i MetaMetrics för att hjälpa oss göra WutangMask bättre"
   },
   "password": {
     "message": "Lösenord"
@@ -744,7 +744,7 @@
     "message": "Primär valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Välj native för att prioritera visning av värden i den ursprungliga valutan i kedjan (t.ex. ETH). Välj Fiat för att prioritera visning av värden i din valda fiatvaluta."
+    "message": "Välj native för att prioritera visning av värden i den ursprungliga valutan i kedjan (t.ex. AVAX). Välj Fiat för att prioritera visning av värden i din valda fiatvaluta."
   },
   "privacyMsg": {
     "message": "Integritetspolicy"
@@ -763,7 +763,7 @@
     "message": "Skydda dina nycklar!"
   },
   "protectYourKeysMessage1": {
-    "message": "Var försiktig med din seedfras — det har rapporterats om hemsidor som försöker imitera MetaMask. MetaMask kommer aldrig fråga efter din seedfras!"
+    "message": "Var försiktig med din seedfras — det har rapporterats om hemsidor som försöker imitera WutangMask. WutangMask kommer aldrig fråga efter din seedfras!"
   },
   "protectYourKeysMessage2": {
     "message": "Håll din fras i säkert förvar. Om du ser något misstänksamt eller om du är osäker på en hemsida, skicka ett e-postmeddelande till support@metamask.io."
@@ -855,8 +855,8 @@
   "rinkeby": {
     "message": "Rinkeby testnätverk"
   },
-  "ropsten": {
-    "message": "Ropsten testnätverk"
+  "avalanche": {
+    "message": "Avalanche testnätverk"
   },
   "rpcUrl": {
     "message": "Ny RPC-URL"
@@ -913,7 +913,7 @@
     "message": "Välj ett konto"
   },
   "selectAnAccountHelp": {
-    "message": "Välj konto att visa i MetaMask"
+    "message": "Välj konto att visa i WutangMask"
   },
   "selectCurrency": {
     "message": "Välj valuta"
@@ -940,7 +940,7 @@
     "message": "Skicka belopp"
   },
   "sendETH": {
-    "message": "Skicka ETH"
+    "message": "Skicka AVAX"
   },
   "sendTokens": {
     "message": "Skicka tokens"
@@ -1030,7 +1030,7 @@
     "message": "3. Börja använda dApps och mer!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Använd ditt hårdvarukonto som du skulle använda andra Ethereum-konton. Logga in i dAppar, skicka ETH, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
+    "message": "Använd ditt hårdvarukonto som du skulle använda andra Ethereum-konton. Logga in i dAppar, skicka AVAX, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
   },
   "storePhrase": {
     "message": "Lagra denna fras i en lösenordshanterare såsom 1Password."
@@ -1060,10 +1060,10 @@
     "message": "Du kan nu synka dina konton och din information med din mobil-enhet. Öppna MetaMasks mobil-app, gå till \"Inställningar\" och tryck på \"Synka från webbläsartillägg\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Om du öppnar MetaMask mobilapplikation för första gången behöver du bara följa stegen som visas i telefonen."
+    "message": "Om du öppnar WutangMask mobilapplikation för första gången behöver du bara följa stegen som visas i telefonen."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skanna den här koden med din MetaMask mobilapplikation"
+    "message": "Skanna den här koden med din WutangMask mobilapplikation"
   },
   "syncWithMobileTitle": {
     "message": "Synka med mobil"
@@ -1148,7 +1148,7 @@
     "message": "Försök igen"
   },
   "typePassword": {
-    "message": "Ange ditt MetaMask-lösenord"
+    "message": "Ange ditt WutangMask-lösenord"
   },
   "unapproved": {
     "message": "Inte godkänd"
@@ -1211,7 +1211,7 @@
     "message": "Plånboksseed"
   },
   "welcome": {
-    "message": "Välkommen till MetaMask"
+    "message": "Välkommen till WutangMask"
   },
   "welcomeBack": {
     "message": "Välkommen tillbaka!"

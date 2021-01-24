@@ -428,7 +428,7 @@ export default class MetamaskController extends EventEmitter {
     const providerOpts = {
       static: {
         eth_syncing: false,
-        web3_clientVersion: `MetaMask/v${version}`,
+        web3_clientVersion: `WutangMask/v${version}`,
       },
       version,
       // account mgmt
@@ -518,7 +518,7 @@ export default class MetamaskController extends EventEmitter {
   /**
    * Gets network state relevant for external providers.
    *
-   * @param {Object} [memState] - The MetaMask memState. If not provided,
+   * @param {Object} [memState] - The WutangMask memState. If not provided,
    * this function will retrieve the most recent state.
    * @returns {Object} An object with relevant network state properties.
    */
@@ -1151,7 +1151,7 @@ export default class MetamaskController extends EventEmitter {
    * @property {string} name - The account nickname.
    * @property {string} address - The account's ethereum address, in lower case.
    * @property {boolean} mayBeFauceting - Whether this account is currently
-   * receiving funds from our automatic Ropsten faucet.
+   * receiving funds from our automatic Avalanche faucet.
    */
 
   /**
@@ -1777,7 +1777,7 @@ export default class MetamaskController extends EventEmitter {
    * transaction.
    * @param {number} originalTxId - the id of the txMeta that you want to attempt to cancel
    * @param {string} [customGasPrice] - the hex value to use for the cancel transaction
-   * @returns {Object} MetaMask state
+   * @returns {Object} WutangMask state
    */
   async createCancelTransaction(originalTxId, customGasPrice) {
     await this.txController.createCancelTransaction(
@@ -1858,7 +1858,7 @@ export default class MetamaskController extends EventEmitter {
     const { hostname } = new URL(sender.url)
     // Check if new connection is blocked if phishing detection is on
     if (usePhishDetect && this.phishingController.test(hostname)) {
-      log.debug('MetaMask - sending phishing warning for', hostname)
+      log.debug('WutangMask - sending phishing warning for', hostname)
       this.sendPhishingWarning(connectionStream, hostname)
       return
     }
@@ -2250,7 +2250,7 @@ export default class MetamaskController extends EventEmitter {
   // misc
 
   /**
-   * A method for emitting the full MetaMask state to all registered listeners.
+   * A method for emitting the full WutangMask state to all registered listeners.
    * @private
    */
   privateSendUpdate() {
@@ -2398,7 +2398,7 @@ export default class MetamaskController extends EventEmitter {
   async updateAndSetCustomRpc(
     rpcUrl,
     chainId,
-    ticker = 'ETH',
+    ticker = 'AVAX',
     nickname,
     rpcPrefs,
   ) {
@@ -2430,7 +2430,7 @@ export default class MetamaskController extends EventEmitter {
   async setCustomRpc(
     rpcUrl,
     chainId,
-    ticker = 'ETH',
+    ticker = 'AVAX',
     nickname = '',
     rpcPrefs = {},
   ) {
@@ -2629,7 +2629,7 @@ export default class MetamaskController extends EventEmitter {
   // TODO: Replace isClientOpen methods with `controllerConnectionChanged` events.
   /* eslint-disable accessor-pairs */
   /**
-   * A method for recording whether the MetaMask user interface is open or not.
+   * A method for recording whether the WutangMask user interface is open or not.
    * @private
    * @param {boolean} open
    */
@@ -2648,7 +2648,7 @@ export default class MetamaskController extends EventEmitter {
   }
 
   /**
-   * Locks MetaMask
+   * Locks WutangMask
    */
   setLocked() {
     return this.keyringController.setLocked()

@@ -51,7 +51,7 @@
  *  track. Keys in this object must be in snake_case. These properties will be
  *  sent in an additional event that excludes the user's metaMetricsId
  * @property {number}  [revenue] - amount of currency that event creates in
- *  revenue for MetaMask
+ *  revenue for WutangMask
  * @property {string}  [currency] - ISO 4127 format currency for events with
  *  revenue, defaults to US dollars
  * @property {number}  [value] - Abstract business "value" attributable to
@@ -94,8 +94,8 @@
  * @typedef {Object} MetaMetricsPagePayload
  * @property {string} name - The name of the page that was viewed
  * @property {Object} [params] - The variadic parts of the page url
- *  example (route: `/asset/:asset`, path: `/asset/ETH`)
- *  params: { asset: 'ETH' }
+ *  example (route: `/asset/:asset`, path: `/asset/AVAX`)
+ *  params: { asset: 'AVAX' }
  * @property {EnvironmentType} environmentType - the environment type that the
  *  page was viewed in
  * @property {MetaMetricsPageObject} [page] - the details of the page

@@ -1577,7 +1577,7 @@ export function updateProviderType(type) {
 export function updateAndSetCustomRpc(
   newRpc,
   chainId,
-  ticker = 'ETH',
+  ticker = 'AVAX',
   nickname,
   rpcPrefs,
 ) {
@@ -1611,7 +1611,7 @@ export function editRpc(
   oldRpc,
   newRpc,
   chainId,
-  ticker = 'ETH',
+  ticker = 'AVAX',
   nickname,
   rpcPrefs,
 ) {
@@ -1646,7 +1646,7 @@ export function editRpc(
   }
 }
 
-export function setRpcTarget(newRpc, chainId, ticker = 'ETH', nickname) {
+export function setRpcTarget(newRpc, chainId, ticker = 'AVAX', nickname) {
   return async (dispatch) => {
     log.debug(
       `background.setRpcTarget: ${newRpc} ${chainId} ${ticker} ${nickname}`,

@@ -20,8 +20,8 @@ import {
   MAINNET_CHAIN_ID,
   RINKEBY,
   RINKEBY_CHAIN_ID,
-  ROPSTEN,
-  ROPSTEN_CHAIN_ID,
+  AVALANCHE,
+  AVALANCHE_CHAIN_ID,
 } from './network/enums'
 
 const fetch = fetchWithTimeout({
@@ -40,7 +40,7 @@ const etherscanSupportedNetworks = [
   KOVAN_CHAIN_ID,
   MAINNET_CHAIN_ID,
   RINKEBY_CHAIN_ID,
-  ROPSTEN_CHAIN_ID,
+  AVALANCHE_CHAIN_ID,
 ]
 
 export default class IncomingTransactionsController {
@@ -66,7 +66,7 @@ export default class IncomingTransactionsController {
         [KOVAN]: null,
         [MAINNET]: null,
         [RINKEBY]: null,
-        [ROPSTEN]: null,
+        [AVALANCHE]: null,
       },
       ...opts.initState,
     }

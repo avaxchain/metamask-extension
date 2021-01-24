@@ -7,11 +7,21 @@ import {
   MAINNET_CHAIN_ID,
   RINKEBY,
   RINKEBY_CHAIN_ID,
-  ROPSTEN,
-  ROPSTEN_CHAIN_ID,
+  AVALANCHE,
+  AVALANCHE_CHAIN_ID,
 } from '../../../../../app/scripts/controllers/network/enums'
 
 const defaultNetworksData = [
+
+  {
+    labelKey: AVALANCHE,
+    iconColor: '#29B6AF',
+    providerType: AVALANCHE,
+    rpcUrl: `https://api.avax.network/ext/bc/C/rpc`,
+    chainId: AVALANCHE_CHAIN_ID,
+    ticker: 'AVAX',
+    blockExplorerUrl: 'https://cchain.explorer.avax.network/',
+  },
   {
     labelKey: MAINNET,
     iconColor: '#29B6AF',
@@ -20,15 +30,6 @@ const defaultNetworksData = [
     chainId: MAINNET_CHAIN_ID,
     ticker: 'ETH',
     blockExplorerUrl: 'https://etherscan.io',
-  },
-  {
-    labelKey: ROPSTEN,
-    iconColor: '#FF4A8D',
-    providerType: ROPSTEN,
-    rpcUrl: `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
-    chainId: ROPSTEN_CHAIN_ID,
-    ticker: 'ETH',
-    blockExplorerUrl: 'https://ropsten.etherscan.io',
   },
   {
     labelKey: RINKEBY,

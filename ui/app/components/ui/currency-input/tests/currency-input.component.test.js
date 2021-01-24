@@ -21,7 +21,7 @@ describe('CurrencyInput Component', function () {
     it('should render properly with a suffix', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -31,23 +31,23 @@ describe('CurrencyInput Component', function () {
       const wrapper = mount(
         <Provider store={store}>
           <CurrencyInput
-            nativeSuffix="ETH"
+            nativeSuffix="AVAX"
             fiatSuffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AVAX"
           />
         </Provider>,
       )
 
       assert.ok(wrapper)
       assert.strictEqual(wrapper.find('.unit-input__suffix').length, 1)
-      assert.strictEqual(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.strictEqual(wrapper.find('.unit-input__suffix').text(), 'AVAX')
       assert.strictEqual(wrapper.find(CurrencyDisplay).length, 1)
     })
 
-    it('should render properly with an ETH value', function () {
+    it('should render properly with an AVAX value', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -59,8 +59,8 @@ describe('CurrencyInput Component', function () {
           <CurrencyInput
             value="de0b6b3a7640000"
             fiatSuffix="USD"
-            nativeSuffix="ETH"
-            nativeCurrency="ETH"
+            nativeSuffix="AVAX"
+            nativeCurrency="AVAX"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -75,7 +75,7 @@ describe('CurrencyInput Component', function () {
         'de0b6b3a7640000',
       )
       assert.strictEqual(wrapper.find('.unit-input__suffix').length, 1)
-      assert.strictEqual(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.strictEqual(wrapper.find('.unit-input__suffix').text(), 'AVAX')
       assert.strictEqual(wrapper.find('.unit-input__input').props().value, 1)
       assert.strictEqual(
         wrapper.find('.currency-display-component').text(),
@@ -86,7 +86,7 @@ describe('CurrencyInput Component', function () {
     it('should render properly with a fiat value', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -98,9 +98,9 @@ describe('CurrencyInput Component', function () {
           <CurrencyInput
             value="f602f2234d0ea"
             fiatSuffix="USD"
-            nativeSuffix="ETH"
+            nativeSuffix="AVAX"
             useFiat
-            nativeCurrency="ETH"
+            nativeCurrency="AVAX"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -123,7 +123,7 @@ describe('CurrencyInput Component', function () {
     it('should render properly with a native value when hideFiat is true', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -135,10 +135,10 @@ describe('CurrencyInput Component', function () {
           <CurrencyInput
             value="f602f2234d0ea"
             fiatSuffix="USD"
-            nativeSuffix="ETH"
+            nativeSuffix="AVAX"
             useFiat
             hideFiat
-            nativeCurrency="ETH"
+            nativeCurrency="AVAX"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -154,7 +154,7 @@ describe('CurrencyInput Component', function () {
       assert.strictEqual(currencyInputInstance.state.decimalValue, 0.004328)
       assert.strictEqual(currencyInputInstance.state.hexValue, 'f602f2234d0ea')
       assert.strictEqual(wrapper.find('.unit-input__suffix').length, 1)
-      assert.strictEqual(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.strictEqual(wrapper.find('.unit-input__suffix').text(), 'AVAX')
       assert.strictEqual(
         wrapper.find('.unit-input__input').props().value,
         0.004328,
@@ -175,10 +175,10 @@ describe('CurrencyInput Component', function () {
       handleBlurSpy.resetHistory()
     })
 
-    it('should call onChange on input changes with the hex value for ETH', function () {
+    it('should call onChange on input changes with the hex value for AVAX', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -188,8 +188,8 @@ describe('CurrencyInput Component', function () {
         <Provider store={store}>
           <CurrencyInput
             onChange={handleChangeSpy}
-            suffix="ETH"
-            nativeCurrency="ETH"
+            suffix="AVAX"
+            nativeCurrency="AVAX"
             currentCurrency="usd"
             conversionRate={231.06}
           />
@@ -227,7 +227,7 @@ describe('CurrencyInput Component', function () {
     it('should call onChange on input changes with the hex value for fiat', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -238,7 +238,7 @@ describe('CurrencyInput Component', function () {
           <CurrencyInput
             onChange={handleChangeSpy}
             suffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AVAX"
             currentCurrency="usd"
             conversionRate={231.06}
             useFiat
@@ -274,7 +274,7 @@ describe('CurrencyInput Component', function () {
     it('should change the state and pass in a new decimalValue when props.value changes', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -285,7 +285,7 @@ describe('CurrencyInput Component', function () {
           <CurrencyInput
             onChange={handleChangeSpy}
             suffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AVAX"
             currentCurrency="usd"
             conversionRate={231.06}
             useFiat
@@ -312,7 +312,7 @@ describe('CurrencyInput Component', function () {
     it('should swap selected currency when swap icon is clicked', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'AVAX',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -322,9 +322,9 @@ describe('CurrencyInput Component', function () {
         <Provider store={store}>
           <CurrencyInput
             onChange={handleChangeSpy}
-            nativeSuffix="ETH"
+            nativeSuffix="AVAX"
             fiatSuffix="USD"
-            nativeCurrency="ETH"
+            nativeCurrency="AVAX"
             currentCurrency="usd"
             conversionRate={231.06}
           />

@@ -37,7 +37,7 @@ describe('conversion utils', function () {
       })
       const conv2 = conversionUtil(1, {
         fromNumericBase: 'dec',
-        fromDenomination: 'ETH',
+        fromDenomination: 'AVAX',
         toDenomination: 'WEI',
       })
       assert(
@@ -78,13 +78,13 @@ describe('conversion utils', function () {
         '1500000000000000000',
       )
     })
-    it('Converts WEI to ETH', function () {
+    it('Converts WEI to AVAX', function () {
       assert.strictEqual(
         conversionUtil('0xde0b6b3a7640000', {
           fromNumericBase: 'hex',
           toNumericBase: 'dec',
           fromDenomination: 'WEI',
-          toDenomination: 'ETH',
+          toDenomination: 'AVAX',
         }),
         '1',
       )
@@ -93,16 +93,16 @@ describe('conversion utils', function () {
           fromNumericBase: 'hex',
           toNumericBase: 'dec',
           fromDenomination: 'WEI',
-          toDenomination: 'ETH',
+          toDenomination: 'AVAX',
         }),
         '1.5',
       )
     })
-    it('Converts ETH to WEI', function () {
+    it('Converts AVAX to WEI', function () {
       assert.strictEqual(
         conversionUtil('1', {
           fromNumericBase: 'dec',
-          fromDenomination: 'ETH',
+          fromDenomination: 'AVAX',
           toDenomination: 'WEI',
         }).toNumber(),
         1000000000000000000,
@@ -110,17 +110,17 @@ describe('conversion utils', function () {
       assert.strictEqual(
         conversionUtil('1.5', {
           fromNumericBase: 'dec',
-          fromDenomination: 'ETH',
+          fromDenomination: 'AVAX',
           toDenomination: 'WEI',
         }).toNumber(),
         1500000000000000000,
       )
     })
-    it('Converts ETH to GWEI', function () {
+    it('Converts AVAX to GWEI', function () {
       assert.strictEqual(
         conversionUtil('1', {
           fromNumericBase: 'dec',
-          fromDenomination: 'ETH',
+          fromDenomination: 'AVAX',
           toDenomination: 'GWEI',
         }).toNumber(),
         1000000000,
@@ -128,13 +128,13 @@ describe('conversion utils', function () {
       assert.strictEqual(
         conversionUtil('1.5', {
           fromNumericBase: 'dec',
-          fromDenomination: 'ETH',
+          fromDenomination: 'AVAX',
           toDenomination: 'GWEI',
         }).toNumber(),
         1500000000,
       )
     })
-    it('Converts ETH to USD', function () {
+    it('Converts AVAX to USD', function () {
       assert.strictEqual(
         conversionUtil('1', {
           fromNumericBase: 'dec',
@@ -156,7 +156,7 @@ describe('conversion utils', function () {
         '702.87',
       )
     })
-    it('Converts USD to ETH', function () {
+    it('Converts USD to AVAX', function () {
       assert.strictEqual(
         conversionUtil('468.58', {
           fromNumericBase: 'dec',

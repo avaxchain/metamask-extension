@@ -64,7 +64,7 @@ const EthOverview = ({ className }) => {
   const chainId = useSelector(getCurrentChainId)
   const enteredSwapsEvent = useNewMetricEvent({
     event: 'Swaps Opened',
-    properties: { source: 'Main View', active_currency: 'ETH' },
+    properties: { source: 'Main View', active_currency: 'AVAX' },
     category: 'swaps',
   })
   const swapsEnabled = useSelector(getSwapsFeatureLiveness)

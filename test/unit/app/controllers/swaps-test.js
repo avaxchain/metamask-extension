@@ -6,7 +6,7 @@ import { mapValues } from 'lodash'
 import BigNumber from 'bignumber.js'
 import { ObservableStore } from '@metamask/obs-store'
 import {
-  ROPSTEN_NETWORK_ID,
+  AVALANCHE_NETWORK_ID,
   MAINNET_NETWORK_ID,
 } from '../../../../app/scripts/controllers/network/enums'
 import { ETH_SWAPS_TOKEN_ADDRESS } from '../../../../ui/app/helpers/constants/swaps'
@@ -97,7 +97,7 @@ function getMockNetworkController() {
     store: {
       getState: () => {
         return {
-          network: ROPSTEN_NETWORK_ID,
+          network: AVALANCHE_NETWORK_ID,
         }
       },
     },
@@ -241,7 +241,7 @@ describe('SwapsController', function () {
       const currentEthersInstance = swapsController.ethersProvider
       const onNetworkDidChange = networkController.on.getCall(0).args[1]
 
-      onNetworkDidChange(ROPSTEN_NETWORK_ID)
+      onNetworkDidChange(AVALANCHE_NETWORK_ID)
 
       const newEthersInstance = swapsController.ethersProvider
       assert.strictEqual(
@@ -459,7 +459,7 @@ describe('SwapsController', function () {
         assert.deepStrictEqual(resultQuotes, expectedResultQuotes)
       })
 
-      it('returns the top aggId and quotes with savings and fee values if passed necessary data and the source token is ETH', async function () {
+      it('returns the top aggId and quotes with savings and fee values if passed necessary data and the source token is AVAX', async function () {
         const testInput = mapValues(
           getTopQuoteAndSavingsMockQuotes(),
           (quote) => ({
@@ -523,7 +523,7 @@ describe('SwapsController', function () {
         assert.deepStrictEqual(resultQuotes, expectedResultQuotes)
       })
 
-      it('returns the top aggId and quotes with savings and fee values if passed necessary data and the source token is ETH and an ETH fee is included in the trade value of what would be the best quote', async function () {
+      it('returns the top aggId and quotes with savings and fee values if passed necessary data and the source token is AVAX and an AVAX fee is included in the trade value of what would be the best quote', async function () {
         const testInput = mapValues(
           getTopQuoteAndSavingsMockQuotes(),
           (quote) => ({
@@ -533,7 +533,7 @@ describe('SwapsController', function () {
             trade: { value: '0x8ac7230489e80000' },
           }),
         )
-        // 0.04 ETH fee included in trade value
+        // 0.04 AVAX fee included in trade value
         testInput[TEST_AGG_ID_1].trade.value = '0x8b553ece48ec0000'
         const baseExpectedResultQuotes = getTopQuoteAndSavingsBaseExpectedResults()
         const expectedResultQuotes = {
@@ -600,9 +600,9 @@ describe('SwapsController', function () {
         assert.deepStrictEqual(resultQuotes, expectedResultQuotes)
       })
 
-      it('returns the top aggId and quotes with savings and fee values if passed necessary data and the source token is not ETH and an ETH fee is included in the trade value of what would be the best quote', async function () {
+      it('returns the top aggId and quotes with savings and fee values if passed necessary data and the source token is not AVAX and an AVAX fee is included in the trade value of what would be the best quote', async function () {
         const testInput = getTopQuoteAndSavingsMockQuotes()
-        // 0.04 ETH fee included in trade value
+        // 0.04 AVAX fee included in trade value
         testInput[TEST_AGG_ID_1].trade.value = '0x8e1bc9bf040000'
         const baseExpectedResultQuotes = getTopQuoteAndSavingsBaseExpectedResults()
         const expectedResultQuotes = {

@@ -30,7 +30,7 @@ import {
 } from '../../helpers/constants/routes'
 
 const LEARN_MORE_URL =
-  'https://metamask.zendesk.com/hc/en-us/articles/360045129011-Intro-to-MetaMask-v8-extension'
+  'https://metamask.zendesk.com/hc/en-us/articles/360045129011-Intro-to-WutangMask-v8-extension'
 const LEGACY_WEB3_URL =
   'https://metamask.zendesk.com/hc/en-us/articles/360053147012'
 

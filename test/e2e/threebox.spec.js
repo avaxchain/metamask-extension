@@ -10,7 +10,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('WutangMask', function () {
   let driver
 
   const testSeedPhrase =
@@ -117,7 +117,7 @@ describe('MetaMask', function () {
         const balance = await driver.findElement(
           By.css('[data-testid="wallet-balance"] .list-item__heading'),
         )
-        await driver.wait(until.elementTextMatches(balance, /25\s*ETH/u))
+        await driver.wait(until.elementTextMatches(balance, /25\s*AVAX/u))
         await driver.delay(regularDelayMs)
       })
     })
@@ -258,7 +258,7 @@ describe('MetaMask', function () {
         const balance = await driver2.findElement(
           By.css('[data-testid="wallet-balance"] .list-item__heading'),
         )
-        await driver2.wait(until.elementTextMatches(balance, /25\s*ETH/u))
+        await driver2.wait(until.elementTextMatches(balance, /25\s*AVAX/u))
         await driver2.delay(regularDelayMs)
       })
     })

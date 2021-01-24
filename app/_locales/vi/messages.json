@@ -19,7 +19,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "WutangMask",
     "description": "The name of the application"
   },
   "approve": {
@@ -68,7 +68,7 @@
     "message": "Tùy chỉnh RPC"
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch Ether là Main Net (tiền ETH thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch Ether là Main Net (tiền AVAX thật)."
   },
   "depositEther": {
     "message": "Ký gửi Ether"
@@ -171,7 +171,7 @@
     "message": "Thoát"
   },
   "mainnet": {
-    "message": "Mạng Ethereum MainNet (tiền ETH thật)"
+    "message": "Mạng Ethereum MainNet (tiền AVAX thật)"
   },
   "message": {
     "message": "Tin nhắn"
@@ -180,7 +180,7 @@
     "message": "Tài khoản của tôi"
   },
   "needEtherInWallet": {
-    "message": "Để tương tác với các ứng dụng phân tán bằng MetaMask, bạn sẽ phải cần có Ether trong ví của bạn."
+    "message": "Để tương tác với các ứng dụng phân tán bằng WutangMask, bạn sẽ phải cần có Ether trong ví của bạn."
   },
   "needImportFile": {
     "message": "Bạn phải chọn một tập tin để nhập.",
@@ -243,8 +243,8 @@
   "rinkeby": {
     "message": "Mạng thử nghiệm Rinkeby"
   },
-  "ropsten": {
-    "message": "Mạng thử nghiệm Ropsten"
+  "avalanche": {
+    "message": "Mạng thử nghiệm Avalanche"
   },
   "save": {
     "message": "Lưu"
@@ -274,7 +274,7 @@
     "message": "Yêu cầu chữ ký"
   },
   "testFaucet": {
-    "message": "Vòi nhận tiền ETH ảo để thử nghiệm"
+    "message": "Vòi nhận tiền AVAX ảo để thử nghiệm"
   },
   "to": {
     "message": "Đến"

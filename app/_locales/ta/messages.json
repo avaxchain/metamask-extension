@@ -85,7 +85,7 @@
   "connectingToRinkeby": {
     "message": "ரிங்கெப்ய டெஸ்ட் நெட்வொர்க்குடன் இணைக்கிறது"
   },
-  "connectingToRopsten": {
+  "connectingToAvalanche": {
     "message": "ரொப்ஸ்டென் டெஸ்ட் நெட்வொர்க்குடன் இணைக்கிறது"
   },
   "contractDeployment": {
@@ -301,7 +301,7 @@
     "description": "பயனர் ஒரு கணக்கு முக்கியம் மற்றும் தொடர ஒரு கோப்பு சேர்க்க வேண்டும்"
   },
   "negativeETH": {
-    "message": "ETH எதிர்மறை அளவுகளை அனுப்ப முடியாது."
+    "message": "AVAX எதிர்மறை அளவுகளை அனுப்ப முடியாது."
   },
   "networks": {
     "message": "நெட்வொர்க்ஸ்"
@@ -414,7 +414,7 @@
   "rinkeby": {
     "message": "ரிங்கெப்ய டெஸ்ட் நெட்வொர்க்"
   },
-  "ropsten": {
+  "avalanche": {
     "message": "ரொப்ஸ்டென் டெஸ்ட் நெட்வொர்க்"
   },
   "save": {
@@ -442,7 +442,7 @@
     "message": "அனுப்பு"
   },
   "sendETH": {
-    "message": "ETH ஐ அனுப்பு"
+    "message": "AVAX ஐ அனுப்பு"
   },
   "sendTokens": {
     "message": "டோக்கன்களை அனுப்பவும்"

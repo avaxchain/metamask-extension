@@ -7,7 +7,7 @@ import {
   conversionUtil,
   multiplyCurrencies,
 } from '../../../helpers/utils/conversion-util'
-import { ETH } from '../../../helpers/constants/common'
+import { AVAX } from '../../../helpers/constants/common'
 import { addHexPrefix } from '../../../../../app/scripts/lib/util'
 
 /**
@@ -115,16 +115,16 @@ export default class TokenInput extends PureComponent {
       currency = currentCurrency
       numberOfDecimals = 2
     } else {
-      // Display ETH
-      currency = ETH
+      // Display AVAX
+      currency = AVAX
       numberOfDecimals = 6
     }
 
     const decimalEthValue = decimalValue * tokenExchangeRate || 0
     const hexWeiValue = getWeiHexFromDecimalValue({
       value: decimalEthValue,
-      fromCurrency: ETH,
-      fromDenomination: ETH,
+      fromCurrency: AVAX,
+      fromDenomination: AVAX,
     })
 
     return tokenExchangeRate ? (

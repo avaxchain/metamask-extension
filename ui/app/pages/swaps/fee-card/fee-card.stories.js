@@ -23,8 +23,8 @@ export const WithAllProps = () => {
       <FeeCard
         feeRowText={text('feeRowText', 'Network fees')}
         primaryFee={{
-          fee: text('primaryFee', '1 ETH'),
-          maxFee: text('primaryMaxFee', '2 ETH'),
+          fee: text('primaryFee', '1 AVAX'),
+          maxFee: text('primaryMaxFee', '2 AVAX'),
         }}
         secondaryFee={{
           fee: text('secondaryFee', '100 USD'),
@@ -53,8 +53,8 @@ export const WithoutThirdRow = () => {
       <FeeCard
         feeRowText={text('feeRowText', 'Network fees')}
         primaryFee={{
-          fee: text('primaryFee', '1 ETH'),
-          maxFee: text('primaryMaxFee', '2 ETH'),
+          fee: text('primaryFee', '1 AVAX'),
+          maxFee: text('primaryMaxFee', '2 AVAX'),
         }}
         secondaryFee={{
           fee: text('secondaryFee', '100 USD'),
@@ -77,8 +77,8 @@ export const WithOnlyRequiredProps = () => {
     <div style={containerStyle}>
       <FeeCard
         primaryFee={{
-          fee: text('primaryFee', '1 ETH'),
-          maxFee: text('primaryMaxFee', '2 ETH'),
+          fee: text('primaryFee', '1 AVAX'),
+          maxFee: text('primaryMaxFee', '2 AVAX'),
         }}
         onFeeCardMaxRowClick={action('Clicked max fee row link')}
         hideTokenApprovalRow

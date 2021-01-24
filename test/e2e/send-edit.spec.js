@@ -9,7 +9,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('Using MetaMask with an existing account', function () {
+describe('Using WutangMask with an existing account', function () {
   let driver
 
   const testSeedPhrase =
@@ -112,7 +112,7 @@ describe('Using MetaMask with an existing account', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask', function () {
+  describe('Send AVAX from inside WutangMask', function () {
     it('starts a send transaction', async function () {
       await driver.clickElement(By.css('[data-testid="eth-overview-send"]'))
       await driver.delay(regularDelayMs)
@@ -244,7 +244,7 @@ describe('Using MetaMask with an existing account', function () {
         By.css('.transaction-list-item__primary-currency'),
       )
       assert.equal(txValues.length, 1)
-      assert.ok(/-2.2\s*ETH/u.test(await txValues[0].getText()))
+      assert.ok(/-2.2\s*AVAX/u.test(await txValues[0].getText()))
     })
   })
 })

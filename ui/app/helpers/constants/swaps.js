@@ -1,9 +1,9 @@
-// An address that the metaswap-api recognizes as ETH, in place of the token address that ERC-20 tokens have
+// An address that the metaswap-api recognizes as AVAX, in place of the token address that ERC-20 tokens have
 export const ETH_SWAPS_TOKEN_ADDRESS =
   '0x0000000000000000000000000000000000000000'
 
 export const ETH_SWAPS_TOKEN_OBJECT = {
-  symbol: 'ETH',
+  symbol: 'AVAX',
   name: 'Ether',
   address: ETH_SWAPS_TOKEN_ADDRESS,
   decimals: 18,

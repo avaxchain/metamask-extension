@@ -11,7 +11,7 @@ import {
   roundExponential,
 } from '../../helpers/utils/confirm-tx.util'
 import { getWeiHexFromDecimalValue } from '../../helpers/utils/conversions.util'
-import { ETH, PRIMARY } from '../../helpers/constants/common'
+import { AVAX, PRIMARY } from '../../helpers/constants/common'
 
 export default function ConfirmTokenTransactionBase({
   toAddress,
@@ -37,8 +37,8 @@ export default function ConfirmTokenTransactionBase({
 
     return getWeiHexFromDecimalValue({
       value: decimalEthValue,
-      fromCurrency: ETH,
-      fromDenomination: ETH,
+      fromCurrency: AVAX,
+      fromDenomination: AVAX,
     })
   }, [tokenAmount, contractExchangeRate])
 
@@ -86,7 +86,7 @@ export default function ConfirmTokenTransactionBase({
       primaryTotalTextOverride={
         <div>
           <span>{`${tokensText} + `}</span>
-          <img src="/images/eth.svg" height="18" alt="" />
+          <img src="/images/avax.svg" height="18" alt="" />
           <span>{ethTransactionTotal}</span>
         </div>
       }

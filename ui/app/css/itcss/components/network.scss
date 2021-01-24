@@ -13,12 +13,12 @@
   flex: 0 0 auto;
   display: flex;
 
-  &.ethereum-network .menu-icon-circle div {
-    background-color: rgba(3, 135, 137, 0.7) !important;
+  &.avalanche-network .menu-icon-circle div {
+    background-color: rgba(233, 21, 80, 0.7) !important;
   }
 
-  &.ropsten-test-network .menu-icon-circle div {
-    background-color: rgba(233, 21, 80, 0.7) !important;
+  &.ethereum-network .menu-icon-circle div {
+    background-color: rgba(3, 135, 137, 0.7) !important;
   }
 
   &.kovan-test-network .menu-icon-circle div {

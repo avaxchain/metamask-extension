@@ -33,7 +33,7 @@ export function getRenderableTokenData(
 
   const formattedFiat =
     getTokenFiatAmount(
-      symbol === 'ETH' ? 1 : contractExchangeRates[address],
+      symbol === 'AVAX' ? 1 : contractExchangeRates[address],
       conversionRate,
       currentCurrency,
       string,
@@ -42,7 +42,7 @@ export function getRenderableTokenData(
     ) || ''
   const rawFiat =
     getTokenFiatAmount(
-      symbol === 'ETH' ? 1 : contractExchangeRates[address],
+      symbol === 'AVAX' ? 1 : contractExchangeRates[address],
       conversionRate,
       currentCurrency,
       string,
@@ -127,7 +127,7 @@ export function useTokensToSearch({
       )
       if (
         usersTokensAddressMap[token.address] &&
-        (renderableDataToken.symbol === 'ETH' ||
+        (renderableDataToken.symbol === 'AVAX' ||
           Number(renderableDataToken.balance ?? 0) !== 0)
       ) {
         tokensToSearchBuckets.owned.push(renderableDataToken)

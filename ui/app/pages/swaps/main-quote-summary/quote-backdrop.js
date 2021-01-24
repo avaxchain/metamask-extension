@@ -64,7 +64,7 @@ export default function QuotesBackdrop({ withTopTab }) {
           y2="90.693"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#037DD6" />
+          <stop stopColor="#e84a71" />
           <stop offset="0.994792" stopColor="#1098FC" />
         </linearGradient>
         <linearGradient
@@ -75,7 +75,7 @@ export default function QuotesBackdrop({ withTopTab }) {
           y2="90.693"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#037DD6" />
+          <stop stopColor="#e84a71" />
           <stop offset="0.994792" stopColor="#1098FC" />
         </linearGradient>
       </defs>

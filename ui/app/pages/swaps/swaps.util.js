@@ -345,7 +345,7 @@ export async function fetchSwapsQuoteRefreshTime() {
   }
 
   throw new Error(
-    `MetaMask - refreshTime provided invalid response: ${response}`,
+    `WutangMask - refreshTime provided invalid response: ${response}`,
   )
 }
 
@@ -415,7 +415,7 @@ export function getRenderableNetworkFeesForQuote(
   const gasTotalInWeiHex = calcGasTotal(totalGasLimitForCalculation, gasPrice)
 
   const nonGasFee = new BigNumber(tradeValue, 16)
-    .minus(sourceSymbol === 'ETH' ? sourceAmount : 0, 10)
+    .minus(sourceSymbol === 'AVAX' ? sourceAmount : 0, 10)
     .toString(16)
 
   const totalWeiCost = new BigNumber(gasTotalInWeiHex, 16)
@@ -424,7 +424,7 @@ export function getRenderableNetworkFeesForQuote(
 
   const ethFee = getValueFromWeiHex({
     value: totalWeiCost,
-    toDenomination: 'ETH',
+    toDenomination: 'AVAX',
     numberOfDecimals: 5,
   })
   const rawNetworkFees = getValueFromWeiHex({
@@ -438,7 +438,7 @@ export function getRenderableNetworkFeesForQuote(
     rawNetworkFees,
     rawEthFee: ethFee,
     feeInFiat: formattedNetworkFee,
-    feeInEth: `${ethFee} ETH`,
+    feeInEth: `${ethFee} AVAX`,
     nonGasFee,
   }
 }
@@ -498,7 +498,7 @@ export function quotesToRenderableData(
     const tokenConversionRate =
       tokenConversionRates[destinationTokenInfo.address]
     const ethValueOfTrade =
-      destinationTokenInfo.symbol === 'ETH'
+      destinationTokenInfo.symbol === 'AVAX'
         ? calcTokenAmount(
             destinationAmount,
             destinationTokenInfo.decimals || 18,
@@ -562,7 +562,7 @@ export function getSwapsTokensReceivedFromTxMeta(
   approvalTxMeta,
 ) {
   const txReceipt = txMeta?.txReceipt
-  if (tokenSymbol === 'ETH') {
+  if (tokenSymbol === 'AVAX') {
     if (
       !txReceipt ||
       !txMeta ||
@@ -602,7 +602,7 @@ export function getSwapsTokensReceivedFromTxMeta(
         aBase: 16,
         bBase: 16,
         fromDenomination: 'WEI',
-        toDenomination: 'ETH',
+        toDenomination: 'AVAX',
         toNumericBase: 'dec',
         numberOfDecimals: 6,
       },

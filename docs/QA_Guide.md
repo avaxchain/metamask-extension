@@ -3,7 +3,7 @@
 Steps to mark a full pass of QA complete.
 * Browsers: Opera, Chrome, Firefox, Edge.
 * OS: Ubuntu, Mac OSX, Windows
-* Load older version of MetaMask and attempt to simulate updating the extension.
+* Load older version of WutangMask and attempt to simulate updating the extension.
 * Open Developer Console in background and popup, inspect errors.
 * Watch the state logs 
   * Transactions (unapproved txs -> rejected/submitted -> confirmed)
@@ -40,8 +40,8 @@ Steps to mark a full pass of QA complete.
 * Send a transaction and sign a message (https://danfinlay.github.io/js-eth-personal-sign-examples/) for each keyring type
     * hd keyring
     * imported keyring
-* Change network from mainnet → ropsten → rinkeby → localhost (ganache)
-* Ganache set blocktime to simulate retryTx in MetaMask
+* Change network from mainnet → avalanche → rinkeby → localhost (ganache)
+* Ganache set blocktime to simulate retryTx in WutangMask
 * Copy public key to clipboard
 * Export private key
 

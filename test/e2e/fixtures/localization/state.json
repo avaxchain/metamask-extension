@@ -13,7 +13,7 @@
       "conversionDate": 1594323667.203,
       "conversionRate": 14205.88,
       "currentCurrency": "php",
-      "nativeCurrency": "ETH"
+      "nativeCurrency": "AVAX"
     },
     "IncomingTransactionsController": {
       "incomingTransactions": {},
@@ -33,7 +33,7 @@
         "nickname": "Localhost 8545",
         "rpcUrl": "http://localhost:8545",
         "chainId": "0x539",
-        "ticker": "ETH",
+        "ticker": "AVAX",
         "type": "rpc"
       }
     },
@@ -77,7 +77,7 @@
       "accountTokens": {
         "0x5cfe73b6021e818b776b421b1c4db2474086a7e1": {
           "rinkeby": [],
-          "ropsten": []
+          "avalanche": []
         }
       },
       "assetImages": {},

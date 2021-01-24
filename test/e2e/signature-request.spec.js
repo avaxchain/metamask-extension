@@ -12,7 +12,7 @@ const fixtureServer = new FixtureServer()
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('WutangMask', function () {
   let driver
   let publicAddress
 
@@ -109,7 +109,7 @@ describe('MetaMask', function () {
       await driver.delay(regularDelayMs)
       windowHandles = await driver.getAllWindowHandles()
       await driver.switchToWindowWithTitle(
-        'MetaMask Notification',
+        'WutangMask Notification',
         windowHandles,
       )
       await driver.delay(regularDelayMs)

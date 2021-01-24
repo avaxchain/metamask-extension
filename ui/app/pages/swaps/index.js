@@ -112,13 +112,13 @@ export default function Swap() {
     address: selectedAccountAddress,
   } = selectedAccount
   const fetchParamsFromToken =
-    sourceTokenInfo?.symbol === 'ETH'
+    sourceTokenInfo?.symbol === 'AVAX'
       ? {
           ...ETH_SWAPS_TOKEN_OBJECT,
           string: getValueFromWeiHex({
             value: ethBalance,
             numberOfDecimals: 4,
-            toDenomination: 'ETH',
+            toDenomination: 'AVAX',
           }),
           balance: ethBalance,
         }
